@@ -1,0 +1,21 @@
+Create a finished Chinese independent newspaper art poster from the supplied photograph. Portrait 3:4 canvas, high resolution. This is a designed flat printed page, straight on, no mockup, no folded paper, no outside environment. Charming, witty, sophisticated, collectible. Soft clean off-white paper, near-black ink, a single restrained vermilion handwritten annotation. Chinese typography must be impeccable, editorial heavy Songti/Ming type headline with sharp thick/thin contrast, readable smaller Chinese body text. Broad margins about 5%.
+
+Input image is the photograph to embed, not a style reference. Preserve the actual dark tortoiseshell cat with yellow eyes, its exact face, fur markings and sitting pose, the laptop on the left and the open book in the right foreground. Keep one naturally colored rectangular photographic window, do not redraw the cat, do not add objects or duplicate the subject. Preserve these spatial relationships. Photo occupies roughly 40 percent of page height and almost full content width, in the middle-lower page.
+
+Layout: modest but distinctive masthead across the top with small English subline, hairline plus thick rule. Small section line. Large elegant two-line headline above the photo. Strong typography and quiet margins, not an infographic. Below photo, generous two-column footer: wider left column with short article, smaller right column separated by one fine vertical rule with a brief item. One red handwritten editorial note placed near right footer white space, no other red ornaments. Subtle paper tactility but crisp print, no dirty grain, no gradients or stickers.
+
+Render ONLY these exact texts, each once, with precise simplified Chinese:
+Masthead: "没什么大事日报"
+English subline: "THE SMALL NEWS"
+Section: "生活观察 · 宠物版"
+Main headline, two lines: "新同事已到岗"
+"主要负责盯人"
+Left footer title: "现场报道"
+Left footer body: "电脑开着，书也摊着。"
+"它看起来，是全桌最忙的一个。"
+Right footer title: "工作进展"
+Right footer body: "尚未打字，"
+"已让人不敢摸鱼。"
+Red handwritten note: "领导气质"
+
+No dates, issue numbers, extra filler text, gibberish, real newspaper logos, watermarks, signatures, QR codes, icons or border boxes. Humor should feel deadpan and affectionate; visual design remains genuinely composed and beautiful. Headline and photograph dominate immediately at phone thumbnail size.

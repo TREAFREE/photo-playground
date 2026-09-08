@@ -1,0 +1,21 @@
+Refine the newspaper layout shown in image 2 using image 1 as the source photograph. Image 2 is the prior draft layout; image 1 is the required photographic content. Output one finished 3:4 vertical flat newspaper art poster.
+
+The single change is typographic density and breathing room: reduce the oversized masthead by roughly 25%, reduce the two-line main headline by roughly 20%, increase outside margins to 6% and give a clear quiet gap between section, headline and photograph. Keep the photograph large and prominent. Keep bottom articles but make their headings more modest so they do not compete. Aim for an elegant independent print journal with wit, not a shouting tabloid. Keep all wording, original charcoal Songti type, light warm-white paper, one vermilion handwritten note, two-column bottom, and exact same news concept. No additional design modules. Maintain generous but purposeful whitespace; no huge abandoned empty area.
+
+Use image 1 to preserve the original cat's exact face/eye shape and tortoiseshell coloring, its original pose, laptop at left and open book in front right. One rectangular photo window, not a reimagined cat or a repeated photo. Do not change photographic facts. No cropping ears or book context.
+
+Every text must be exact and appear once:
+"没什么大事日报"
+"THE SMALL NEWS"
+"生活观察 · 宠物版"
+"新同事已到岗"
+"主要负责盯人"
+"现场报道"
+"电脑开着，书也摊着。"
+"它看起来，是全桌最忙的一个。"
+"工作进展"
+"尚未打字，"
+"已让人不敢摸鱼。"
+"领导气质"
+
+No dates, issue numbers, watermarks, QR codes, extra flourishes, invented text, weathering, folded-paper shadows or borders.

@@ -1,0 +1,21 @@
+Create one beautiful finished Chinese independent newspaper poster from the supplied empty park bench photograph. Vertical 3:4 canvas, high resolution. A flat orthographic paper page, no book mockup or surrounding scene. Original imaginary daily-life newspaper, gentle deadpan humor. Very light warm-white paper, crisp near-black Songti/Ming editorial typography, generous blank space and one restrained vermilion handwritten note. No graphic cards, no gradients, no distressed aging.
+
+The supplied photo is the edit input. Preserve the same weathered dark curved bench, slat edges, deep diagonal perspective, soft green trees behind, and small out-of-focus background figures. Do not invent a seated person. One large photographic rectangle only, natural colors, not a redrawn illustration. The source is vertical: use a tall photo on the RIGHT approximately 56% of content width below masthead. Preserve bench shape including seat and near leg, do not stretch or turn it into a generic bench.
+
+Layout: top 15% is masthead, small English subline, fine-and-thick newspaper rules and section. Main story below: left approximately 38% width holds a bold two-line Chinese headline and a short deck with generous line spacing; right carries the tall source photo. Leave a clear gutter. Bottom short horizontal newspaper item closes the layout, with a thin separator above. Use black typography as the graphic structure, one red handwritten note near bottom-left quiet space. Photo must stay prominent; avoid shrinking it into a thumbnail. Use a coherent design identity with exquisite simple Chinese typesetting rather than decorative illustrations. Headline roughly 3–4x body size.
+
+Exact text, each once, no additional writing:
+Masthead: "没什么大事日报"
+English subline: "THE SMALL NEWS"
+Section: "生活观察 · 公园版"
+Headline in two lines: "公开招募"
+"发呆的人"
+Deck under left headline: "长椅已就位。"
+"现缺一位"
+"暂时没有安排的人。"
+Bottom item title: "岗位要求"
+Bottom item body: "会坐即可，无需特长。"
+"允许看树，不必想通任何事。"
+Single red handwritten annotation: "欢迎空降"
+
+Do not add dates, statistics, issue numbers, employer logos, news organization emblems, pricing, QR codes, watermarks, new people or invented story details. Keep every Chinese character exact and readable. This should feel like a charming printed object somebody wants to save and share, beautifully balanced and quietly funny.

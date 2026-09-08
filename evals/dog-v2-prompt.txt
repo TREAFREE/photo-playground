@@ -1,0 +1,21 @@
+Recompose this exact newspaper as a PORTRAIT 3:4 poster, taller than wide (for example 1086 pixels wide by 1448 pixels high). The single defect to fix is the landscape canvas. Do NOT keep the landscape aspect ratio of the input dog photograph. Do NOT stretch or crop the whole previous poster. Rebuild its typography and spacing for a tall page.
+
+Image 1 is the original black-and-white dog photograph to embed. Preserve the same dog's face, eyes, prone pose, both front paws fully visible, light couch and patterned cushion left. Keep the photograph monochrome and rectangular. Image 2 is a successful PORTRAIT newspaper layout reference: copy ONLY its overall canvas orientation and typography/margin proportions, NEVER its cat or wording.
+
+Tall vertical layout: moderate masthead at top, English subline, editorial double rule and section, large two-line headline, horizontal dog photograph in the middle taking about 40% of the vertical page, two short columns at bottom. Warm-white clean paper, black elegant Songti lettering, 6% outside margin, breathing room, a single small red handwritten note. Maintain full front paws by fitting the complete original photo inside the photographic area rather than chopping bottom edges. Tall finished canvas must be clearly 3:4 portrait.
+
+Exact text, once each:
+"没什么大事日报"
+"THE SMALL NEWS"
+"生活观察 · 居家版"
+"沙发使用权"
+"暂不对外开放"
+"现场情况"
+"头已放好，爪已伸开。"
+"本次休息，暂未设置结束时间。"
+"来访须知"
+"可以摸头，"
+"请勿劝起。"
+red handwritten: "已读不动"
+
+No other content, no real newspaper branding, no dates, no watermarks, no cartoon, no colorizing the source photo.

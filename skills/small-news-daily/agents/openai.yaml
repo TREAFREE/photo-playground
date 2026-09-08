@@ -1,0 +1,4 @@
+interface:
+  display_name: "没什么大事日报"
+  short_description: "把生活照片做成有冷幽默、有留白、可以直接分享的中文小报头版"
+  default_prompt: "使用 $small-news-daily，把这张照片做成《没什么大事日报》，有一点冷幽默，文字用中文。"

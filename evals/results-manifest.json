@@ -1,0 +1,65 @@
+[
+  {
+    "file": "examples/results/bench-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "37772d6834fd2f81b4a303cad236481c0710015dc46910e2d20cb5e19d8b3d46",
+    "prompt": "evals/bench-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true
+  },
+  {
+    "file": "examples/results/cat-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "da729fe393a8af1e8ff2966280d5abf9c255afb92770befae45347e46ebb17fa",
+    "prompt": "evals/cat-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": false
+  },
+  {
+    "file": "examples/results/cat-v2.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "210c2e6819f34a6012a96c9e5779a4a5384350756ef231a62766214a04f393a8",
+    "prompt": "evals/cat-v2-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true
+  },
+  {
+    "file": "examples/results/croissant-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "c33315b03cf7231ae3b8e051307b570a09aa77c410acdb08ba3f4f2bd96fa55e",
+    "prompt": "evals/croissant-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true
+  },
+  {
+    "file": "examples/results/dog-v1.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "1c548dbb684cee3901c12841964f08a1d3062bf95bad2ee0f32a0240067944e5",
+    "prompt": "evals/dog-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": false
+  },
+  {
+    "file": "examples/results/dog-v2.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "eeb8d00867eea0edf8fc66285ba8ecceff6f2c86ea207a5bc51105d5d2a0ee12",
+    "prompt": "evals/dog-v2-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true
+  },
+  {
+    "file": "examples/results/wardrobe-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "a243c62e3fab1fec197f886f62332a0c0041c3d383d721a09bcc9f67755d3286",
+    "prompt": "evals/wardrobe-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true
+  }
+]

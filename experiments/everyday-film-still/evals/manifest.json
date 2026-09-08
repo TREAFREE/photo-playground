@@ -1,0 +1,28 @@
+[
+  {
+    "file": "experiments/everyday-film-still/results/bench-v1.png",
+    "width": 1935,
+    "height": 812,
+    "sha256": "d173c52311c5a85e21568c344227ec2a5966fb7708478c4417f1c08288c44cc9",
+    "prompt": "experiments/everyday-film-still/evals/bench-v1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "status": "local-prototype"
+  },
+  {
+    "file": "experiments/everyday-film-still/results/cat-v1.png",
+    "width": 1935,
+    "height": 813,
+    "sha256": "9a96f4ca619986710681cc7cce1474e73a6ca002a963da5cdf57a4ce07c248e6",
+    "prompt": "experiments/everyday-film-still/evals/cat-v1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "status": "local-prototype"
+  }
+]

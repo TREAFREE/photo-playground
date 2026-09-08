@@ -7,7 +7,7 @@
     "prompt": "evals/pirate-bounty-poster/cat-v1-prompt.txt",
     "source": "examples/sources/cat.jpg",
     "tool": "built-in image_gen",
-    "selected": true,
+    "selected": false,
     "skill": "pirate-bounty-poster",
     "expected_aspect": [
       210,
@@ -22,6 +22,44 @@
     "sha256": "e7945e4c1caf4005fe2f76a990713fb0c9911342673e359a322d65c3d37b7afd",
     "prompt": "evals/pirate-bounty-poster/dog-v1-prompt.txt",
     "source": "examples/sources/dog.jpg",
+    "tool": "built-in image_gen",
+    "selected": false,
+    "skill": "pirate-bounty-poster",
+    "expected_aspect": [
+      210,
+      297
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/pirate-bounty-poster/cat-v2.png",
+    "width": 1054,
+    "height": 1492,
+    "sha256": "3fb1ef6a3e80513b1bacf71d26c5fcdee97c8d0a569302983abca2a109f40453",
+    "prompt": "evals/pirate-bounty-poster/cat-v2-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/results/pirate-bounty-poster/cat-v1.png"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "pirate-bounty-poster",
+    "expected_aspect": [
+      210,
+      297
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/pirate-bounty-poster/dog-v2.png",
+    "width": 1055,
+    "height": 1491,
+    "sha256": "bdd3a858da3af3067779c8f8e90cc34e031f0cc8cc362d748333c7db2dd34618",
+    "prompt": "evals/pirate-bounty-poster/dog-v2-prompt.txt",
+    "source": "examples/sources/dog.jpg",
+    "reference_images": [
+      "examples/results/pirate-bounty-poster/dog-v1.png"
+    ],
     "tool": "built-in image_gen",
     "selected": true,
     "skill": "pirate-bounty-poster",

@@ -14,9 +14,9 @@ Four free, original photo Skills: **The Small News** for quietly funny newspaper
 
 | The procrastination inspector | The sofa occupier |
 |---|---|
-| ![Cat](examples/results/pirate-bounty-poster/cat-v1.png) | ![Dog](examples/results/pirate-bounty-poster/dog-v1.png) |
+| ![Cat](examples/results/pirate-bounty-poster/cat-v2.png) | ![Dog](examples/results/pirate-bounty-poster/dog-v2.png) |
 
-[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.0) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [Review](evals/pirate-bounty-poster/review.md)
+[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.1) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [Review](evals/pirate-bounty-poster/review.md)
 
 Extract `pirate-bounty-poster` into your Skills directory and ask: “Use $pirate-bounty-poster to create a humorous pirate-anime wanted poster from this photo.” Each Skill is self-contained and packaged separately; the original three ZIPs remain unchanged.
 

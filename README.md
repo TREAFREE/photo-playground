@@ -12,9 +12,9 @@
 
 | 摸鱼监察官 | 沙发占领者 |
 |---|---|
-| ![猫悬赏令](examples/results/pirate-bounty-poster/cat-v1.png) | ![狗悬赏令](examples/results/pirate-bounty-poster/dog-v1.png) |
+| ![猫悬赏令](examples/results/pirate-bounty-poster/cat-v2.png) | ![狗悬赏令](examples/results/pirate-bounty-poster/dog-v2.png) |
 
-[独立下载 pirate-bounty-poster v0.1.0](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.0) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
+[独立下载 pirate-bounty-poster v0.1.1](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.1) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
 
 解压后将 `pirate-bounty-poster` 放进 Skills 目录，附图输入：
 

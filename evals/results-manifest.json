@@ -61,5 +61,61 @@
     "prompt": "evals/wardrobe-v1-prompt.txt",
     "tool": "built-in image_gen",
     "selected": true
+  },
+  {
+    "file": "examples/results/museum-croissant-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "c29007ad318979a842eab086d1de4918798ac42d2a8523c8b43c49055129b780",
+    "prompt": "evals/museum-croissant-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": false,
+    "skill": "private-life-museum",
+    "source": "examples/sources/croissant.jpg",
+    "reference_images": [
+      "examples/sources/croissant.jpg"
+    ]
+  },
+  {
+    "file": "examples/results/museum-croissant-v2.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "1124cc2068250b702050c6207b7214e2b5acac7d37ae26597dc199dd60d976aa",
+    "prompt": "evals/museum-croissant-v2-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "private-life-museum",
+    "source": "examples/sources/croissant.jpg",
+    "reference_images": [
+      "examples/results/museum-croissant-v1.png"
+    ]
+  },
+  {
+    "file": "examples/results/museum-sneakers-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "82f2b42a163f893c7c591d6a79ff3b319f80e1f13646a6ef7c39c6300346d2db",
+    "prompt": "evals/museum-sneakers-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "private-life-museum",
+    "source": "examples/sources/sneakers.jpg",
+    "reference_images": [
+      "examples/sources/sneakers.jpg"
+    ]
+  },
+  {
+    "file": "examples/results/museum-teddy-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "15541b3be5b1f6dc987bbe65dad0b4f0abf8f014421c5f83b2fe3d211ee574f1",
+    "prompt": "evals/museum-teddy-v1-prompt.txt",
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "private-life-museum",
+    "source": "examples/sources/teddy.jpg",
+    "reference_images": [
+      "examples/sources/teddy.jpg"
+    ]
   }
 ]

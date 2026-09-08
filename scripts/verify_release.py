@@ -24,6 +24,10 @@ def check():
         assert (width, height) == (row["width"], row["height"]), path
         assert hashlib.sha256(data).hexdigest() == row["sha256"], path
         assert (ROOT / row["prompt"]).is_file(), path
+        if "source" in row:
+            assert (ROOT / row["source"]).is_file(), path
+        for reference in row.get("reference_images", []):
+            assert (ROOT / reference).is_file(), (path, reference)
         if row["selected"]:
             assert width * 4 == height * 3, f"Selected image must be portrait 3:4: {path}"
     missing = []
@@ -35,17 +39,26 @@ def check():
                 if not (path.parent / link.split("#")[0]).exists():
                     missing.append((str(path.relative_to(ROOT)), link))
     assert not missing, missing
-    skill = ROOT / "skills/small-news-daily"
-    with zipfile.ZipFile(ROOT / "dist/small-news-daily.zip") as archive:
-        assert archive.testzip() is None
-        expected = {
-            str(path.relative_to(skill.parent)): path.read_bytes()
-            for path in skill.rglob("*") if path.is_file()
-        }
-        assert set(archive.namelist()) == set(expected), "Archive file set differs from Skill"
-        for name, data in expected.items():
-            assert archive.read(name) == data, f"Stale archive: {name}"
-    print(f"PASS: {len(sources)} sources, {len(results)} results, local links, exact Skill ZIP")
+    skills = sorted(path for path in (ROOT / "skills").iterdir() if path.is_dir())
+    checksums = {}
+    for line in (ROOT / "dist/SHA256SUMS").read_text().splitlines():
+        digest, name = line.split()
+        checksums[name] = digest
+    assert set(checksums) == {f"{skill.name}.zip" for skill in skills}
+    for skill in skills:
+        archive_path = ROOT / "dist" / f"{skill.name}.zip"
+        assert hashlib.sha256(archive_path.read_bytes()).hexdigest() == checksums[archive_path.name]
+        with zipfile.ZipFile(archive_path) as archive:
+            assert archive.testzip() is None
+            expected = {
+                str(path.relative_to(skill.parent)): path.read_bytes()
+                for path in skill.rglob("*") if path.is_file()
+            }
+            assert set(archive.namelist()) == set(expected), f"Archive file set differs: {skill.name}"
+            for name, data in expected.items():
+                assert archive.read(name) == data, f"Stale archive: {name}"
+    print(f"PASS: {len(sources)} sources, {len(results)} results, local links, {len(skills)} exact Skill ZIPs and checksums")
+
 
 
 if __name__ == "__main__":

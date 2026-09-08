@@ -1,0 +1,17 @@
+Create a beautiful original Chinese exhibition-art poster called “私人生活博物馆” from the supplied breakfast photo. Output ONE tall portrait 3:4 canvas, taller than wide, approximately 1086 wide x 1448 high. This is a collectible gallery poster, an imaginative display, not a real exhibition announcement.
+
+The image is a SUBJECT REFERENCE, not a layout to copy. Select ONLY the distinctive foreground-left croissant filled with sliced red strawberries from the source. Preserve its irregular golden flaky crescent, sliced strawberry filling and open sandwich shape, with believable natural texture and the same particular silhouette. Do not substitute a plain generic croissant. Remove the rest of the breakfast setting and reimagine this one pastry as an adored museum exhibit. Do not include the other three croissants, plates, wine glass, flowers or cloth. Keep one pastry, no duplication.
+
+Art direction: museum-quality still-life with contemporary Japanese/European book typography. Warm bone-white paper background with extremely fine tactility, enormous intentional quiet space. In the center place the single strawberry croissant on one low pale blue-grey ceramic plinth under a beautifully transparent rounded rectangular glass display cover. Delicate clear glass edges, faint morning reflections that DO NOT hide the food, soft believable contact shadow only. Front three-quarter view of the small display object; entire surrounding canvas remains a flat editorial poster, NOT a museum room and NOT a photograph of a printed poster. Food is hero, about 45–50% canvas width; dome has room around it and reads light, never shiny luxury advertising. No gold, velvet, heavy frame, multiple display cases or extra decoration. Strawberries provide the sole vivid red accent; repeat a tiny muted berry-red dot or short rule only once in typography.
+
+Layout: small quiet series name at top left with tiny English line below. Below it, a medium-large delicate Songti/Ming title with air around the characters, not thick headline typography. Middle 45% carries the museum object. Lower-left gallery-style label: a fine short rule, two restrained lines of copy and one intimate slightly italic or bookish footer line; make text readable and refined. Generous 8% outer margins. Lovely cream/blue-grey/golden pastry/strawberry palette. Clear hierarchy and tactile presence.
+
+Exact text, each once:
+series name: "私人生活博物馆"
+small English: "MUSEUM OF ORDINARY THINGS"
+main title: "一口之前"
+exhibit description: "可颂、草莓，以及还没开始的早晨。"
+small label: "保存期限：趁热"
+closing line: "有些收藏，适合慢慢吃掉。"
+
+All Chinese must be exact. No dates, serials, fake provenance, scientific certification, prices, brands, watermarks, QR codes, newspaper rules, columns or red handwriting. This second concept must feel distinctly more tender, airy and quietly surreal than a newspaper.

@@ -5,6 +5,7 @@ import json
 import re
 import struct
 import zipfile
+from pack_skill import check_boundary
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -12,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 def check():
     sources = json.loads((ROOT / "examples/sources/manifest.json").read_text())
     results = json.loads((ROOT / "evals/results-manifest.json").read_text())
+    for manifest in sorted((ROOT / "evals").glob("*/results-manifest.json")):
+        results.extend(json.loads(manifest.read_text()))
     for row in sources:
         path = ROOT / "examples/sources" / row["file"]
         assert hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"], path
@@ -32,7 +35,10 @@ def check():
             # Default stays exact. A recorded rounding allowance is bounded to 2 px.
             tolerance = row.get("aspect_tolerance_px", 0)
             assert isinstance(tolerance, int) and 0 <= tolerance <= 2, path
-            assert abs(width * 4 - height * 3) <= tolerance * 4, f"Selected image must match recorded 3:4 tolerance: {path}"
+            aspect = row.get("expected_aspect", [3, 4])
+            assert len(aspect) == 2 and all(type(n) is int and 0 < n <= 10000 for n in aspect), path
+            horizontal, vertical = aspect
+            assert abs(width * vertical - height * horizontal) <= tolerance * vertical, f"Image differs from its recorded aspect: {path}"
     missing = []
     for path in ROOT.rglob("*.md"):
         if ".git" in path.parts or "experiments" in path.parts:
@@ -49,6 +55,7 @@ def check():
         checksums[name] = digest
     assert set(checksums) == {f"{skill.name}.zip" for skill in skills}
     for skill in skills:
+        check_boundary(skill)
         archive_path = ROOT / "dist" / f"{skill.name}.zip"
         assert hashlib.sha256(archive_path.read_bytes()).hexdigest() == checksums[archive_path.name]
         with zipfile.ZipFile(archive_path) as archive:

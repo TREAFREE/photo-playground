@@ -2,13 +2,23 @@
 
 **Give the smallest moments a front page.**
 
-Three free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, and **Pixel Life Save** for cartoon pixel-art scenes.
+Four free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, and **Pirate Bounty Poster** for humorous wanted posters.
 
 [中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
 
 | A new colleague, mainly here to supervise | Recruiting someone to sit and daydream |
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
+
+## Pirate Bounty Poster
+
+| The procrastination inspector | The sofa occupier |
+|---|---|
+| ![Cat](examples/results/pirate-bounty-poster/cat-v1.png) | ![Dog](examples/results/pirate-bounty-poster/dog-v1.png) |
+
+[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.0) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [Review](evals/pirate-bounty-poster/review.md)
+
+Extract `pirate-bounty-poster` into your Skills directory and ask: “Use $pirate-bounty-poster to create a humorous pirate-anime wanted poster from this photo.” Each Skill is self-contained and packaged separately; the original three ZIPs remain unchanged.
 
 ## Pixel Life Save
 

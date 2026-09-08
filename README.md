@@ -1,12 +1,28 @@
-# Photo Playground · 生活照片的三种玩法
+# Photo Playground · 生活照片的四种玩法
 
 **小事可以登上头版，旧物也值得认真收藏。**
 
-三个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，以及卡通像素风的《像素生活存档》。
+四个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，以及《大航海悬赏令》。
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
 
-## 新玩法：像素生活存档
+## 新玩法：大航海悬赏令
+
+把照片主角做成航海漫画里的悬赏人物，保留原来的神态，配上一本正经的荒诞称号。
+
+| 摸鱼监察官 | 沙发占领者 |
+|---|---|
+| ![猫悬赏令](examples/results/pirate-bounty-poster/cat-v1.png) | ![狗悬赏令](examples/results/pirate-bounty-poster/dog-v1.png) |
+
+[独立下载 pirate-bounty-poster v0.1.0](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.0) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
+
+解压后将 `pirate-bounty-poster` 放进 Skills 目录，附图输入：
+
+> 使用 $pirate-bounty-poster，把这张照片做成海贼王式悬赏令，称号和悬赏理由有一点幽默。
+
+四款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。以下 v0.3.0 下载入口继续提供原来的三款，像素版未替换。
+
+## 像素生活存档
 
 把自己的日常，存成复古游戏里的一幕。宠物保留辨识特征，风景保留空间关系，再用清晰的像素色块重绘。
 
@@ -98,9 +114,9 @@ Skill 原创文字与配置采用 MIT 许可，无功能锁、订阅或生成额
 - [第一轮审片](evals/review.md) / [扩展测试](evals/round-2-review.md)
 - [原照片与作者](examples/sources/README.md) / [生成提示词](evals/)
 - [贡献方式](CONTRIBUTING.md)
-- [玩法路线图](ROADMAP.md)：卡通像素风已发布，下一项是海贼王式通缉令。
+- [玩法路线图](ROADMAP.md)：像素版保留 v0.3.0，大航海悬赏令独立维护。
 
-`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》和《像素生活存档》，逐个打磨后再增加新玩法。
+`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》《像素生活存档》和《大航海悬赏令》，逐个打磨后再增加新玩法。
 
 ## 许可与支持
 

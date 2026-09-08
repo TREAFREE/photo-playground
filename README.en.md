@@ -2,13 +2,25 @@
 
 **Give the smallest moments a front page.**
 
-Two free, original photo Skills: **The Small News**, a quietly funny Chinese newspaper poster, and **Museum of Ordinary Things**, a poetic exhibition poster for everyday objects.
+Three free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, and **Pixel Life Save** for cartoon pixel-art scenes.
 
 [中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
 
 | A new colleague, mainly here to supervise | Recruiting someone to sit and daydream |
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
+
+## Pixel Life Save
+
+A recognizable moment from your photo, reimagined as a colorful retro game illustration. Short Chinese save captions are optional.
+
+| Keeping you company | A place to pause |
+|---|---|
+| ![Pixel cat](examples/results/pixel-cat-v2.png) | ![Pixel park](examples/results/pixel-bench-v1.png) |
+
+[Skill](skills/pixel-life-save/SKILL.md) · [Visual review](evals/pixel-review.md) · [Roadmap](ROADMAP.md)
+
+These are generated pixel-style illustrations, not verified integer-grid sprites or fixed-palette game assets. Background details can change.
 
 ## Museum of Ordinary Things
 
@@ -24,7 +36,7 @@ Preserve the character of worn shoes, a familiar toy, or breakfast, and imagine 
 
 Your agent needs file reading, image inspection, and reference-image editing. This is a Skill, not a model or hosted service. Tested with the built-in image tool in Codex; other providers are not verified.
 
-Download `small-news-daily.zip` or `private-life-museum.zip` from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
+Download `small-news-daily.zip`, `private-life-museum.zip`, or `pixel-life-save.zip` from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
 
 ```bash
 git clone https://github.com/TREAFREE/photo-playground.git
@@ -32,6 +44,7 @@ cd photo-playground
 mkdir -p ~/.codex/skills
 cp -R skills/small-news-daily ~/.codex/skills/
 cp -R skills/private-life-museum ~/.codex/skills/
+cp -R skills/pixel-life-save ~/.codex/skills/
 ```
 
 Back up local changes before replacing an existing installation. Attach a photo and ask:
@@ -40,12 +53,14 @@ Back up local changes before replacing an existing installation. Attach a photo 
 
 > Use $private-life-museum to turn this object into a poetic museum poster with a short Chinese label.
 
+> Use $pixel-life-save to turn this photo into a cartoon pixel-art scene with a short Chinese life-save caption.
+
 You may supply your own headline, context, newspaper name, or language. The tested examples use simplified Chinese.
 
 ## Free and open
 
 Original Skill text, configuration, and code are MIT-licensed. No subscription, credit sale, bundled API key, or public inference proxy. Generation uses your existing environment and its usage limits or fees.
 
-Generated edits may change photo details. We do not promise pixel-perfect preservation or universal success. The newspaper was tried on five source photos; the museum on three subjects (one shared source), with prompts and visual review records in [evals](evals/). Third-party photos and derived sample media retain their source licenses and are excluded from MIT; see [credits](examples/sources/README.md).
+Generated edits may change photo details. We do not promise pixel-perfect preservation or universal success. The newspaper was tried on five source photos; the museum on three subjects (one shared source), and the pixel Skill on two previously recorded photos, with prompts and visual review records in [evals](evals/). Third-party photos and derived sample media retain their source licenses and are excluded from MIT; see [credits](examples/sources/README.md).
 
 [Contributions](CONTRIBUTING.md) are welcome. If it makes you smile, a Star or an example you have permission to share is appreciated.

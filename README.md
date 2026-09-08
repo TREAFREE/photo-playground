@@ -1,10 +1,20 @@
-# Photo Playground · 生活照片的两种玩法
+# Photo Playground · 生活照片的三种玩法
 
 **小事可以登上头版，旧物也值得认真收藏。**
 
-两个原创照片 Skills：冷幽默的《没什么大事日报》，以及温柔的《私人生活博物馆》。
+三个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，以及卡通像素风的《像素生活存档》。
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
+
+## 新玩法：像素生活存档
+
+把自己的日常，存成复古游戏里的一幕。宠物保留辨识特征，风景保留空间关系，再用清晰的像素色块重绘。
+
+| 今日任务：陪你摸鱼 | 在这里，暂停一下 |
+|---|---|
+| ![卡通像素猫](examples/results/pixel-cat-v2.png) | ![像素公园](examples/results/pixel-bench-v1.png) |
+
+[Skill 写法](skills/pixel-life-save/SKILL.md) · [像素视觉规范](skills/pixel-life-save/references/pixel-direction.md) · [实际审片](evals/pixel-review.md)
 
 ## 没什么大事日报
 
@@ -20,7 +30,7 @@
 |---|---|---|
 | ![狗狗小报](examples/results/dog-v2.png) | ![早餐小报](examples/results/croissant-v1.png) | ![穿搭小报](examples/results/wardrobe-v1.png) |
 
-以上是同一个 Skill 在不同照片上的实际生成结果。它先观察照片，写专属文案，再根据横竖构图排版。
+这五张小报是同一个 Skill 在不同照片上的实际生成结果。它先观察照片，写专属文案，再根据横竖构图排版。
 
 ## 私人生活博物馆
 
@@ -36,7 +46,7 @@
 
 需要能读取 Skill 文件、查看照片并调用**参考图片编辑工具**的 Agent 环境。仅有文字聊天能力不能生成这些图片。本项目在 Codex 内置图片工具中实测，未承诺其他模型或客户端的兼容性。
 
-在 [Releases](https://github.com/TREAFREE/photo-playground/releases/latest) 下载想用的 `small-news-daily.zip` 或 `private-life-museum.zip`，解压后将同名文件夹放进你的 Skills 目录。
+在 [Releases](https://github.com/TREAFREE/photo-playground/releases/latest) 下载想用的 `small-news-daily.zip`、`private-life-museum.zip` 或 `pixel-life-save.zip`，解压后将同名文件夹放进你的 Skills 目录。
 
 也可以从源码安装（macOS/Linux，在终端执行）：
 
@@ -46,6 +56,7 @@ cd photo-playground
 mkdir -p ~/.codex/skills
 cp -R skills/small-news-daily ~/.codex/skills/
 cp -R skills/private-life-museum ~/.codex/skills/
+cp -R skills/pixel-life-save ~/.codex/skills/
 ```
 
 如果已经安装过同名 Skill，先备份自己的修改再更新。
@@ -58,6 +69,12 @@ cp -R skills/private-life-museum ~/.codex/skills/
 
 > 使用 $private-life-museum，把照片里的物件做成《私人生活博物馆》，保留它的使用痕迹，展签用中文。
 
+像素版：
+
+> 使用 $pixel-life-save，把这张照片做成卡通像素风，保留主体特征，配一句中文生活存档文案。
+
+也可以明确要求“纯图，不加文字”。
+
 可以加一句你的真实经历，比如“今天周末，我的狗不肯出门”。也可以指定报纸名字、文案或语言。
 
 ## 免费，使用自己的生成环境
@@ -69,7 +86,8 @@ Skill 原创文字与配置采用 MIT 许可，无功能锁、订阅或生成额
 ## 效果边界
 
 - 生成式编辑会改变部分照片细节，不能保证人脸、宠物纹理或原图像素完全一致。
-- 小报测试了 5 张源照片；博物馆测试了可颂、旧鞋、小熊 3 个题材（复用 1 张源照片）。这不是任意照片成功率或用户分享率的统计结论。
+- 小报测试了 5 张源照片；博物馆测试了可颂、旧鞋、小熊 3 个题材（复用 1 张源照片）。像素版测试了猫与公园 2 个题材（复用已有源图）。这不是任意照片成功率或用户分享率的统计结论。
+- 像素版属于生成式插画，会补画场景；未验证严格像素网格或固定调色板，不能直接承诺为游戏素材。
 - 中文偶尔可能出现错误；Skill 包含审片和一次针对性修订流程。
 - 报道属于虚构生活小报，不代表摄影师、照片主体或真实新闻机构的陈述。
 
@@ -80,8 +98,9 @@ Skill 原创文字与配置采用 MIT 许可，无功能锁、订阅或生成额
 - [第一轮审片](evals/review.md) / [扩展测试](evals/round-2-review.md)
 - [原照片与作者](examples/sources/README.md) / [生成提示词](evals/)
 - [贡献方式](CONTRIBUTING.md)
+- [玩法路线图](ROADMAP.md)：卡通像素风已发布，下一项是海贼王式通缉令。
 
-`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》和《私人生活博物馆》，逐个打磨后再增加新玩法。
+`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》和《像素生活存档》，逐个打磨后再增加新玩法。
 
 ## 许可与支持
 

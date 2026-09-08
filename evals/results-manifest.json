@@ -117,5 +117,49 @@
     "reference_images": [
       "examples/sources/teddy.jpg"
     ]
+  },
+  {
+    "file": "examples/results/pixel-cat-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "17e0379ff050ec978a7f37d0e2b9680bffc03495ce12225b1c33033274981e6c",
+    "prompt": "evals/pixel-cat-v1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": false,
+    "skill": "pixel-life-save"
+  },
+  {
+    "file": "examples/results/pixel-cat-v2.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "25f48bbb55c0acedcda757aff5660b903a1abb5f8e653d0db5531f6168134c28",
+    "prompt": "evals/pixel-cat-v2-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/results/pixel-cat-v1.png",
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "pixel-life-save"
+  },
+  {
+    "file": "examples/results/pixel-bench-v1.png",
+    "width": 1087,
+    "height": 1447,
+    "sha256": "bae25dbdea82a35bd3679acfc80f17b5fef66e250bd38b2ffe855cfe0f3e13b7",
+    "prompt": "evals/pixel-bench-v1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "pixel-life-save",
+    "aspect_tolerance_px": 2
   }
 ]

@@ -1,0 +1,16 @@
+[
+  {
+    "attempt": "cat-v2-1",
+    "status": "failed",
+    "http_status": 500,
+    "request_id": "53345724-a49b-4746-b4f2-dc8bee89e906",
+    "output": null,
+    "action": "Retry same prompt once using built-in image_gen; no API/CLI switch."
+  },
+  {
+    "attempt": "cat-v2-2",
+    "status": "succeeded",
+    "output": "examples/results/pixel-cat-v2.png",
+    "prompt": "evals/pixel-cat-v2-prompt.txt"
+  }
+]

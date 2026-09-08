@@ -29,7 +29,10 @@ def check():
         for reference in row.get("reference_images", []):
             assert (ROOT / reference).is_file(), (path, reference)
         if row["selected"]:
-            assert width * 4 == height * 3, f"Selected image must be portrait 3:4: {path}"
+            # Default stays exact. A recorded rounding allowance is bounded to 2 px.
+            tolerance = row.get("aspect_tolerance_px", 0)
+            assert isinstance(tolerance, int) and 0 <= tolerance <= 2, path
+            assert abs(width * 4 - height * 3) <= tolerance * 4, f"Selected image must match recorded 3:4 tolerance: {path}"
     missing = []
     for path in ROOT.rglob("*.md"):
         if ".git" in path.parts or "experiments" in path.parts:

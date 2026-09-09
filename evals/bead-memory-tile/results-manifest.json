@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/bead-memory-tile/cat-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "5a6bae29f462ac281038c05d431e73b8c46b4d2b1acd3577a1fcdcbb83da5c24",
+    "prompt": "evals/bead-memory-tile/cat-q1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "bead-memory-tile",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/bead-memory-tile/bench-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "8a8b369431caa732e69bfd4819cab048ddf9d32e86542b7fd5abc5eed361c881",
+    "prompt": "evals/bead-memory-tile/bench-q1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "bead-memory-tile",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

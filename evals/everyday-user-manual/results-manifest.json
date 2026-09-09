@@ -36,5 +36,24 @@
       4
     ],
     "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/everyday-user-manual/sneakers-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "0799dcd707a2233c77b3018306ab5974b8937a2cf0365122211cfe34bcb8655e",
+    "prompt": "evals/everyday-user-manual/sneakers-q1-prompt.txt",
+    "source": "examples/sources/sneakers.jpg",
+    "reference_images": [
+      "examples/sources/sneakers.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "everyday-user-manual",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
   }
 ]

@@ -36,5 +36,24 @@
       4
     ],
     "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/paper-scene-diorama/croissant-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "bf778e696b00a85525f0318bb8b85f38528c443df6acc7613108d60d6f0c439b",
+    "prompt": "evals/paper-scene-diorama/croissant-q1-prompt.txt",
+    "source": "examples/sources/croissant.jpg",
+    "reference_images": [
+      "examples/sources/croissant.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "paper-scene-diorama",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
   }
 ]

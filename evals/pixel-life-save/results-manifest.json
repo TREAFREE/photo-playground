@@ -1,0 +1,21 @@
+[
+  {
+    "file": "examples/results/pixel-life-save/dog-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "67f8cea4011d280e5eadad0922a1a67c73d5714a55875d57f0887682dd966946",
+    "prompt": "evals/pixel-life-save/dog-q1-prompt.txt",
+    "source": "examples/sources/dog.jpg",
+    "reference_images": [
+      "examples/sources/dog.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "pixel-life-save",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

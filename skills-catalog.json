@@ -1,0 +1,190 @@
+[
+  {
+    "name": "small-news-daily",
+    "title": "没什么大事日报",
+    "version": "0.1.0",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 5,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg",
+      "examples/sources/croissant.jpg",
+      "examples/sources/dog.jpg",
+      "examples/sources/wardrobe.jpg"
+    ],
+    "results_count": 7,
+    "entrypoint": "skills/small-news-daily/SKILL.md",
+    "archive": "dist/small-news-daily.zip",
+    "review": "evals/round-2-review.md"
+  },
+  {
+    "name": "private-life-museum",
+    "title": "私人生活博物馆",
+    "version": "0.2.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 4,
+    "sources": [
+      "examples/sources/croissant.jpg",
+      "examples/sources/sneakers.jpg",
+      "examples/sources/teddy.jpg",
+      "examples/sources/wardrobe.jpg"
+    ],
+    "results_count": 5,
+    "entrypoint": "skills/private-life-museum/SKILL.md",
+    "archive": "dist/private-life-museum.zip",
+    "review": "evals/private-life-museum/quality-review.md"
+  },
+  {
+    "name": "pixel-life-save",
+    "title": "像素生活存档",
+    "version": "0.3.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 3,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg",
+      "examples/sources/dog.jpg"
+    ],
+    "results_count": 4,
+    "entrypoint": "skills/pixel-life-save/SKILL.md",
+    "archive": "dist/pixel-life-save.zip",
+    "review": "evals/pixel-life-save/quality-review.md"
+  },
+  {
+    "name": "pirate-bounty-poster",
+    "title": "大航海悬赏令",
+    "version": "0.1.2",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 3,
+    "sources": [
+      "examples/sources/cat.jpg",
+      "examples/sources/dog.jpg",
+      "examples/sources/teddy.jpg"
+    ],
+    "results_count": 5,
+    "entrypoint": "skills/pirate-bounty-poster/SKILL.md",
+    "archive": "dist/pirate-bounty-poster.zip",
+    "review": "evals/pirate-bounty-poster/quality-review.md"
+  },
+  {
+    "name": "everyday-film-still",
+    "title": "日常电影剧照",
+    "version": "0.1.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 4,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg",
+      "examples/sources/croissant.jpg",
+      "examples/sources/wardrobe.jpg"
+    ],
+    "results_count": 5,
+    "entrypoint": "skills/everyday-film-still/SKILL.md",
+    "archive": "dist/everyday-film-still.zip",
+    "review": "evals/everyday-film-still/quality-review.md"
+  },
+  {
+    "name": "paper-scene-diorama",
+    "title": "微型纸雕",
+    "version": "0.1.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 3,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg",
+      "examples/sources/croissant.jpg"
+    ],
+    "results_count": 3,
+    "entrypoint": "skills/paper-scene-diorama/SKILL.md",
+    "archive": "dist/paper-scene-diorama.zip",
+    "review": "evals/paper-scene-diorama/quality-review.md"
+  },
+  {
+    "name": "photo-memory-book",
+    "title": "照片记忆册",
+    "version": "0.1.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 3,
+    "sources": [
+      "examples/sources/cat.jpg",
+      "examples/sources/croissant.jpg",
+      "examples/sources/teddy.jpg"
+    ],
+    "results_count": 3,
+    "entrypoint": "skills/photo-memory-book/SKILL.md",
+    "archive": "dist/photo-memory-book.zip",
+    "review": "evals/photo-memory-book/quality-review.md"
+  },
+  {
+    "name": "everyday-user-manual",
+    "title": "日常说明书",
+    "version": "0.1.1",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 3,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg",
+      "examples/sources/sneakers.jpg"
+    ],
+    "results_count": 3,
+    "entrypoint": "skills/everyday-user-manual/SKILL.md",
+    "archive": "dist/everyday-user-manual.zip",
+    "review": "evals/everyday-user-manual/quality-review.md"
+  },
+  {
+    "name": "bead-memory-tile",
+    "title": "拼豆纪念画",
+    "version": "0.1.0",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 2,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg"
+    ],
+    "results_count": 2,
+    "entrypoint": "skills/bead-memory-tile/SKILL.md",
+    "archive": "dist/bead-memory-tile.zip",
+    "review": "evals/bead-memory-tile/quality-review.md"
+  },
+  {
+    "name": "spot-ink-editorial",
+    "title": "单双色网点海报",
+    "version": "0.1.0",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 2,
+    "sources": [
+      "examples/sources/croissant.jpg",
+      "examples/sources/dog.jpg"
+    ],
+    "results_count": 2,
+    "entrypoint": "skills/spot-ink-editorial/SKILL.md",
+    "archive": "dist/spot-ink-editorial.zip",
+    "review": "evals/spot-ink-editorial/quality-review.md"
+  },
+  {
+    "name": "photo-poetry-diptych",
+    "title": "摄影与微小诗意",
+    "version": "0.1.0",
+    "release": "v0.5.0",
+    "validation": "sample-tested",
+    "source_count": 2,
+    "sources": [
+      "examples/sources/bench.jpg",
+      "examples/sources/cat.jpg"
+    ],
+    "results_count": 3,
+    "entrypoint": "skills/photo-poetry-diptych/SKILL.md",
+    "archive": "dist/photo-poetry-diptych.zip",
+    "review": "evals/photo-poetry-diptych/quality-review.md"
+  }
+]

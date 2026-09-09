@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/spot-ink-editorial/dog-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "0ccaac7cba24816d6c51c9fa80d3321a8db7d8e5ed236747305b97bbf9546b1a",
+    "prompt": "evals/spot-ink-editorial/dog-q1-prompt.txt",
+    "source": "examples/sources/dog.jpg",
+    "reference_images": [
+      "examples/sources/dog.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "spot-ink-editorial",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/spot-ink-editorial/croissant-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "21ce6f3ef0651f603718d6de6c58697112fd4505f642bd00a1ac5784e0da887b",
+    "prompt": "evals/spot-ink-editorial/croissant-q1-prompt.txt",
+    "source": "examples/sources/croissant.jpg",
+    "reference_images": [
+      "examples/sources/croissant.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "spot-ink-editorial",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

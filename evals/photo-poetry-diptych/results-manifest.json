@@ -1,0 +1,60 @@
+[
+  {
+    "file": "examples/results/photo-poetry-diptych/bench-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "093b73e635267b6199e187d5e0ef435bc2d4cd17d54d23271253d7ab8b8207c8",
+    "prompt": "evals/photo-poetry-diptych/bench-q1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": false,
+    "skill": "photo-poetry-diptych",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/photo-poetry-diptych/bench-q2.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "e57c91b426fe335b2f081ffe80b63fc8b0feb28e2aabdb4209c6ffe1da697440",
+    "prompt": "evals/photo-poetry-diptych/bench-q2-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/results/photo-poetry-diptych/bench-q1.png",
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "photo-poetry-diptych",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/photo-poetry-diptych/cat-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "6661090196bea6c5e3245fca08d6f46cef182890cc117e52d10e77be3a807470",
+    "prompt": "evals/photo-poetry-diptych/cat-q1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "photo-poetry-diptych",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

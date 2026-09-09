@@ -36,5 +36,24 @@
       4
     ],
     "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/photo-memory-book/teddy-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "c795e51341f53b9b3d5018d689ccd6a3b83f55fee4a923b27aa48736d6e6aff9",
+    "prompt": "evals/photo-memory-book/teddy-q1-prompt.txt",
+    "source": "examples/sources/teddy.jpg",
+    "reference_images": [
+      "examples/sources/teddy.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "photo-memory-book",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
   }
 ]

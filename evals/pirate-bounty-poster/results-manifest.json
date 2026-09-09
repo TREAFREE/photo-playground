@@ -68,5 +68,24 @@
       297
     ],
     "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/pirate-bounty-poster/teddy-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "c6847704bf4e369df19e862e69e272355374b780d25f9562f5e28f80b88db7eb",
+    "prompt": "evals/pirate-bounty-poster/teddy-q1-prompt.txt",
+    "source": "examples/sources/teddy.jpg",
+    "reference_images": [
+      "examples/sources/teddy.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "pirate-bounty-poster",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
   }
 ]

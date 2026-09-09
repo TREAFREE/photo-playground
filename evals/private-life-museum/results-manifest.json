@@ -1,0 +1,21 @@
+[
+  {
+    "file": "examples/results/private-life-museum/wardrobe-q1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "6d27c7938aa40204d1b637afd4bd9bd92fad52bf4f7bd98721c311a22579e86a",
+    "prompt": "evals/private-life-museum/wardrobe-q1-prompt.txt",
+    "source": "examples/sources/wardrobe.jpg",
+    "reference_images": [
+      "examples/sources/wardrobe.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "private-life-museum",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

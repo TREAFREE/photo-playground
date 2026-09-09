@@ -2,7 +2,7 @@
 
 **Give the smallest moments a front page.**
 
-Eight free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, **Pirate Bounty Poster** for humorous wanted posters, **Everyday Film Still** for cinematic scenes, **Paper Scene Diorama**, **Photo Memory Book**, and **Everyday User Manual**.
+Eleven free, original photo Skills, independently packaged and versioned. Newspaper, museum, pixel art, bounty posters, film stills, paper dioramas, memory books, manuals, fuse-bead keepsakes, spot-ink posters and photo/illustration diptychs.
 
 [中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
 
@@ -10,10 +10,13 @@ Eight free, original photo Skills: **The Small News** for quietly funny newspape
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
 
-## Three new Skills in v0.4.0
+## v0.5.0: three new styles and seven additional test cases
 
-Paper dioramas, photo memory books and fictional everyday manuals each have two examples and an independent ZIP. All eight independent ZIPs are available in [v0.4.0](https://github.com/TREAFREE/photo-playground/releases/tag/v0.4.0); the previous five packages are unchanged. [Review all six results](examples/review-2026-09-09/README.md).
+[Download all eleven independent ZIPs](https://github.com/TREAFREE/photo-playground/releases/tag/v0.5.0) · [Review thirteen final results](examples/review-v0.5.0/README.md) · [Versions and validation scope](docs/skill-status.md)
 
+New: `bead-memory-tile`, `spot-ink-editorial`, `photo-poetry-diptych`. Seven earlier Skills received source-handling guidance and one additional photo case each. Two targeted revisions and their rejected first attempts are recorded. The newspaper bundle is unchanged.
+
+Published means available to download, not guaranteed success for arbitrary inputs. Tests use built-in image_gen in one session, not blind agent tests. Other clients/models remain unverified. Bead output is not a countable craft chart; spot-ink output is not a prepress separation; the diptych bench sample still has an approximate 57/43 split.
 
 ## Everyday Film Still
 
@@ -62,7 +65,7 @@ Preserve the character of worn shoes, a familiar toy, or breakfast, and imagine 
 
 Your agent needs file reading, image inspection, and reference-image editing. This is a Skill, not a model or hosted service. Tested with the built-in image tool in Codex; other providers are not verified.
 
-Download any of the eight independent Skill ZIPs from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
+Download any of the eleven independent Skill ZIPs from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
 
 ```bash
 git clone https://github.com/TREAFREE/photo-playground.git

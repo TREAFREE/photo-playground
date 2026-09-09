@@ -55,5 +55,46 @@
       100
     ],
     "aspect_tolerance_relative": 0.005
+  },
+  {
+    "file": "examples/results/everyday-film-still/wardrobe-q1.png",
+    "width": 1935,
+    "height": 812,
+    "sha256": "9251afb349fe1d3213d53abc47c4e4d19c259bff7e98bca1c1e6327dd54e063c",
+    "prompt": "evals/everyday-film-still/wardrobe-q1-prompt.txt",
+    "source": "examples/sources/wardrobe.jpg",
+    "reference_images": [
+      "examples/sources/wardrobe.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": false,
+    "skill": "everyday-film-still",
+    "expected_aspect": [
+      239,
+      100
+    ],
+    "aspect_tolerance_px": 2,
+    "aspect_tolerance_relative": 0.005
+  },
+  {
+    "file": "examples/results/everyday-film-still/wardrobe-q2.png",
+    "width": 1938,
+    "height": 812,
+    "sha256": "680b21fafa2fb0039f29fb31233e0a6429c5f796afad5c6d4dc883b3a5329b93",
+    "prompt": "evals/everyday-film-still/wardrobe-q2-prompt.txt",
+    "source": "examples/sources/wardrobe.jpg",
+    "reference_images": [
+      "examples/results/everyday-film-still/wardrobe-q1.png",
+      "examples/sources/wardrobe.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "everyday-film-still",
+    "expected_aspect": [
+      239,
+      100
+    ],
+    "aspect_tolerance_px": 2,
+    "aspect_tolerance_relative": 0.005
   }
 ]

@@ -1,15 +1,20 @@
-# Photo Playground · 生活照片的八种玩法
+# Photo Playground · 生活照片的十一种玩法
 
 **小事可以登上头版，旧物也值得认真收藏。**
 
-八个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，《大航海悬赏令》，《日常电影剧照》、《微型纸雕》、《照片记忆册》和《日常说明书》。
+十一款原创照片 Skills，涵盖冷幽默、像素、纸雕、电影、照片书和编辑海报。每款独立安装、独立修改；实际验证范围见下方状态说明。
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
 
-## 新增三款：纸雕、记忆册、说明书
+## v0.5.0：新增三种风格，补测原有七款
 
-新增微型纸雕、照片记忆册、日常说明书，各两个实测样例和独立 ZIP。[查看六张成品与原图对照](examples/review-2026-09-09/README.md)。
+[查看十三张最终样例及原图对照](examples/review-v0.5.0/README.md) · [每款版本与验证范围](docs/skill-status.md)
 
+| 拼豆纪念画 | 单双色网点海报 | 摄影与微小诗意 |
+|---|---|---|
+| ![拼豆猫](examples/results/bead-memory-tile/cat-q1.png) | ![单色狗狗](examples/results/spot-ink-editorial/dog-q1.png) | ![摄影手绘](examples/results/photo-poetry-diptych/bench-q2.png) |
+
+全部为已发布、带样例的 Skill。**已发布不等于任意照片稳定出图；本地列表仅显示已安装的 Skill。** 本轮给原有七款分别补充复杂输入处理规则与新题材测试，保留两次修订前后的记录。日报规则与安装包未改动；未合并此前未采纳的像素改稿。
 
 ## 新玩法：日常电影剧照
 
@@ -18,7 +23,7 @@
 ![深夜陪伴](examples/results/everyday-film-still/cat-v1.png)
 ![清晨字幕版](examples/results/everyday-film-still/croissant-v1.png)
 
-[独立下载 everyday-film-still v0.1.0](https://github.com/TREAFREE/photo-playground/releases/tag/everyday-film-still-v0.1.0) · [Skill](skills/everyday-film-still/SKILL.md) · [三种题材审片](evals/everyday-film-still/review.md)
+[下载 everyday-film-still v0.1.1](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-film-still.zip) · [Skill](skills/everyday-film-still/SKILL.md) · [三种题材审片](evals/everyday-film-still/review.md)
 
 解压后将 `everyday-film-still` 放进 Skills 目录，附图输入：
 
@@ -34,13 +39,13 @@
 |---|---|
 | ![猫悬赏令](examples/results/pirate-bounty-poster/cat-v2.png) | ![狗悬赏令](examples/results/pirate-bounty-poster/dog-v2.png) |
 
-[独立下载 pirate-bounty-poster v0.1.1](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.1) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
+[下载 pirate-bounty-poster v0.1.2](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pirate-bounty-poster.zip) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
 
 解压后将 `pirate-bounty-poster` 放进 Skills 目录，附图输入：
 
 > 使用 $pirate-bounty-poster，把这张照片做成海贼王式悬赏令，称号和悬赏理由有一点幽默。
 
-八款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。v0.4.0 集中提供八款独立安装包，原有五款规则与安装包未改动，像素版未替换。
+十一款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。v0.5.0 集中提供十一款独立安装包；旧版本仍可在历史 Releases 下载。
 
 ## 像素生活存档
 
@@ -82,18 +87,21 @@
 
 需要能读取 Skill 文件、查看照片并调用**参考图片编辑工具**的 Agent 环境。仅有文字聊天能力不能生成这些图片。本项目在 Codex 内置图片工具中实测，未承诺其他模型或客户端的兼容性。
 
-在 [v0.4.0 下载页](https://github.com/TREAFREE/photo-playground/releases/tag/v0.4.0) 选择需要的独立 ZIP。解压后将同名文件夹放进个人 Skills 目录；Codex 当前文档推荐 `~/.agents/skills`。若已存在同名文件夹，先备份自己的修改再更新。八款可以分别安装，不需要全部安装。
+在 [v0.5.0 下载页](https://github.com/TREAFREE/photo-playground/releases/tag/v0.5.0) 选择需要的独立 ZIP。解压后将同名文件夹放进个人 Skills 目录；Codex 当前文档推荐 `~/.agents/skills`。若已存在同名文件夹，先备份自己的修改再更新。十一款可以分别安装，不需要全部安装。
 
-| 玩法 | 独立安装包 |
-|---|---|
-| 没什么大事日报 | [small-news-daily.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/small-news-daily.zip) |
-| 私人生活博物馆 | [private-life-museum.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/private-life-museum.zip) |
-| 像素生活存档 | [pixel-life-save.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/pixel-life-save.zip) |
-| 大航海悬赏令 | [pirate-bounty-poster.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/pirate-bounty-poster.zip) |
-| 日常电影剧照 | [everyday-film-still.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/everyday-film-still.zip) |
-| 微型纸雕 | [paper-scene-diorama.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/paper-scene-diorama.zip) |
-| 照片记忆册 | [photo-memory-book.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/photo-memory-book.zip) |
-| 日常说明书 | [everyday-user-manual.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/everyday-user-manual.zip) |
+| 玩法 | 规则版本 | 独立安装包 |
+|---|---|---|
+| 没什么大事日报 | 0.1.0 | [small-news-daily.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/small-news-daily.zip) |
+| 私人生活博物馆 | 0.2.1 | [private-life-museum.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/private-life-museum.zip) |
+| 像素生活存档 | 0.3.1 | [pixel-life-save.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pixel-life-save.zip) |
+| 大航海悬赏令 | 0.1.2 | [pirate-bounty-poster.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pirate-bounty-poster.zip) |
+| 日常电影剧照 | 0.1.1 | [everyday-film-still.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-film-still.zip) |
+| 微型纸雕 | 0.1.1 | [paper-scene-diorama.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/paper-scene-diorama.zip) |
+| 照片记忆册 | 0.1.1 | [photo-memory-book.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/photo-memory-book.zip) |
+| 日常说明书 | 0.1.1 | [everyday-user-manual.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-user-manual.zip) |
+| 拼豆纪念画 | 0.1.0 | [bead-memory-tile.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/bead-memory-tile.zip) |
+| 单双色网点海报 | 0.1.0 | [spot-ink-editorial.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/spot-ink-editorial.zip) |
+| 摄影与微小诗意 | 0.1.0 | [photo-poetry-diptych.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/photo-poetry-diptych.zip) |
 
 也可以直接对能访问本地文件的 Codex 说：
 

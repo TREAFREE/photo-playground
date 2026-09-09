@@ -22,7 +22,7 @@ Use $scene-sketch-collage to transform this photo. Keep the subject recognizable
 
 An image-capable agent must read the complete Skill and any linked references. Each ZIP is self-contained; back up local edits before updating that Skill.
 
-Doubao was tested with a photo and pasted architectural-relief rules: it generated an image but changed the requested typography. GitHub retrieval and persistent installation were not successful in the tested chat. Other Skills and task/Turbo modes are not verified. [Actual test and instructions](docs/doubao.md).
+Doubao was tested with a photo and pasted architectural-relief rules: it generated an image but changed the requested typography. That ordinary-chat result does not establish Doubao Work compatibility: public walkthroughs demonstrate GitHub Skill installation through its task/skill-creation interface. Installation of this repository in Doubao Work and other Skills remain unverified. [Actual test and instructions](docs/doubao.md).
 
 ## Scope and license
 

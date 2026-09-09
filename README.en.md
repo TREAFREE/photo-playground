@@ -2,13 +2,24 @@
 
 **Give the smallest moments a front page.**
 
-Four free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, and **Pirate Bounty Poster** for humorous wanted posters.
+Five free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, **Pirate Bounty Poster** for humorous wanted posters, and **Everyday Film Still** for cinematic scenes.
 
 [中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
 
 | A new colleague, mainly here to supervise | Recruiting someone to sit and daydream |
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
+
+## Everyday Film Still
+
+Photo-derived cinematic lighting and framing, with optional original subtitles. Tested on a pet, park scenery and breakfast; scene details can change. Human identity preservation is untested.
+
+![Late-night companion](examples/results/everyday-film-still/cat-v1.png)
+![Breakfast with subtitle](examples/results/everyday-film-still/croissant-v1.png)
+
+[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/everyday-film-still-v0.1.0) · [Skill](skills/everyday-film-still/SKILL.md) · [Review](evals/everyday-film-still/review.md)
+
+Extract `everyday-film-still` into your Skills directory, attach a photo and ask: “Use $everyday-film-still to make a cinematic still from this photo, without subtitles.”
 
 ## Pirate Bounty Poster
 

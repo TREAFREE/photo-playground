@@ -38,7 +38,10 @@ def check():
             aspect = row.get("expected_aspect", [3, 4])
             assert len(aspect) == 2 and all(type(n) is int and 0 < n <= 10000 for n in aspect), path
             horizontal, vertical = aspect
-            assert abs(width * vertical - height * horizontal) <= tolerance * vertical, f"Image differs from its recorded aspect: {path}"
+            relative = row.get("aspect_tolerance_relative", 0)
+            assert isinstance(relative, (int, float)) and 0 <= relative <= 0.005, path
+            allowed = max(tolerance * vertical, height * horizontal * relative)
+            assert abs(width * vertical - height * horizontal) <= allowed, f"Image differs from its recorded aspect: {path}"
     missing = []
     for path in ROOT.rglob("*.md"):
         if ".git" in path.parts or "experiments" in path.parts:

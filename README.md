@@ -1,12 +1,27 @@
-# Photo Playground · 生活照片的四种玩法
+# Photo Playground · 生活照片的五种玩法
 
 **小事可以登上头版，旧物也值得认真收藏。**
 
-四个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，以及《大航海悬赏令》。
+五个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，《大航海悬赏令》，以及《日常电影剧照》。
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
 
-## 新玩法：大航海悬赏令
+## 新玩法：日常电影剧照
+
+用光线、构图和焦点，把日常变成电影中的一个瞬间。默认无字幕，也可以加一句你自己的台词。
+
+![深夜陪伴](examples/results/everyday-film-still/cat-v1.png)
+![清晨字幕版](examples/results/everyday-film-still/croissant-v1.png)
+
+[独立下载 everyday-film-still v0.1.0](https://github.com/TREAFREE/photo-playground/releases/tag/everyday-film-still-v0.1.0) · [Skill](skills/everyday-film-still/SKILL.md) · [三种题材审片](evals/everyday-film-still/review.md)
+
+解压后将 `everyday-film-still` 放进 Skills 目录，附图输入：
+
+> 使用 $everyday-film-still，把这张照片做成电影剧照，保留主体特征，不加字幕。
+
+也可以指定：“加一句原创字幕：再坐一会儿吧。”电影场景属于创意重构，尚未测试人物身份保持或跨模型表现。
+
+## 大航海悬赏令
 
 把照片主角做成航海漫画里的悬赏人物，保留原来的神态，配上一本正经的荒诞称号。
 
@@ -20,7 +35,7 @@
 
 > 使用 $pirate-bounty-poster，把这张照片做成海贼王式悬赏令，称号和悬赏理由有一点幽默。
 
-四款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。以下 v0.3.0 下载入口继续提供原来的三款，像素版未替换。
+五款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。以下 v0.3.0 下载入口继续提供原来的三款，像素版未替换。
 
 ## 像素生活存档
 
@@ -116,7 +131,7 @@ Skill 原创文字与配置采用 MIT 许可，无功能锁、订阅或生成额
 - [贡献方式](CONTRIBUTING.md)
 - [玩法路线图](ROADMAP.md)：像素版保留 v0.3.0，大航海悬赏令独立维护。
 
-`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》《像素生活存档》和《大航海悬赏令》，逐个打磨后再增加新玩法。
+`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》《像素生活存档》《大航海悬赏令》和《日常电影剧照》，逐个打磨后再增加新玩法。
 
 ## 许可与支持
 

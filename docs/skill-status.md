@@ -19,7 +19,6 @@
 | 拼豆纪念画 | 0.1.0 | 2 | 2 | [记录](../evals/bead-memory-tile/quality-review.md) |
 | 单双色网点海报 | 0.1.0 | 2 | 2 | [记录](../evals/spot-ink-editorial/quality-review.md) |
 | 摄影与微小诗意 | 0.1.0 | 2 | 3 | [记录](../evals/photo-poetry-diptych/quality-review.md) |
-
 | 实景渐绘拼贴 | 0.1.0 | 2 | 2 | [记录](../evals/scene-sketch-collage/quality-review.md) |
 | 建筑版画海报 | 0.1.0 | 1 | 1 | [记录](../evals/architectural-relief-poster/quality-review.md) |
 

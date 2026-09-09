@@ -1,14 +1,14 @@
-# Photo Playground · 生活照片的五种玩法
+# Photo Playground · 生活照片的八种玩法
 
 **小事可以登上头版，旧物也值得认真收藏。**
 
-五个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，《大航海悬赏令》，以及《日常电影剧照》。
+八个原创照片 Skills：冷幽默的《没什么大事日报》、温柔的《私人生活博物馆》，卡通像素风的《像素生活存档》，《大航海悬赏令》，《日常电影剧照》、《微型纸雕》、《照片记忆册》和《日常说明书》。
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
 
-## 本地待审：三款新玩法
+## 新增三款：纸雕、记忆册、说明书
 
-新增微型纸雕、照片记忆册、日常说明书，各两个样例和独立 ZIP，等待统一审美检查。[查看六张成品与原图对照](examples/review-2026-09-09/README.md)。
+新增微型纸雕、照片记忆册、日常说明书，各两个实测样例和独立 ZIP。[查看六张成品与原图对照](examples/review-2026-09-09/README.md)。
 
 
 ## 新玩法：日常电影剧照
@@ -40,7 +40,7 @@
 
 > 使用 $pirate-bounty-poster，把这张照片做成海贼王式悬赏令，称号和悬赏理由有一点幽默。
 
-五款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。以下 v0.3.0 下载入口继续提供原来的三款，像素版未替换。
+八款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。v0.4.0 集中提供八款独立安装包，原有五款规则与安装包未改动，像素版未替换。
 
 ## 像素生活存档
 
@@ -82,20 +82,24 @@
 
 需要能读取 Skill 文件、查看照片并调用**参考图片编辑工具**的 Agent 环境。仅有文字聊天能力不能生成这些图片。本项目在 Codex 内置图片工具中实测，未承诺其他模型或客户端的兼容性。
 
-在 [Releases](https://github.com/TREAFREE/photo-playground/releases/latest) 下载想用的 `small-news-daily.zip`、`private-life-museum.zip` 或 `pixel-life-save.zip`，解压后将同名文件夹放进你的 Skills 目录。
+在 [v0.4.0 下载页](https://github.com/TREAFREE/photo-playground/releases/tag/v0.4.0) 选择需要的独立 ZIP。解压后将同名文件夹放进个人 Skills 目录；Codex 当前文档推荐 `~/.agents/skills`。若已存在同名文件夹，先备份自己的修改再更新。八款可以分别安装，不需要全部安装。
 
-也可以从源码安装（macOS/Linux，在终端执行）：
+| 玩法 | 独立安装包 |
+|---|---|
+| 没什么大事日报 | [small-news-daily.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/small-news-daily.zip) |
+| 私人生活博物馆 | [private-life-museum.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/private-life-museum.zip) |
+| 像素生活存档 | [pixel-life-save.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/pixel-life-save.zip) |
+| 大航海悬赏令 | [pirate-bounty-poster.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/pirate-bounty-poster.zip) |
+| 日常电影剧照 | [everyday-film-still.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/everyday-film-still.zip) |
+| 微型纸雕 | [paper-scene-diorama.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/paper-scene-diorama.zip) |
+| 照片记忆册 | [photo-memory-book.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/photo-memory-book.zip) |
+| 日常说明书 | [everyday-user-manual.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.4.0/everyday-user-manual.zip) |
 
-```bash
-git clone https://github.com/TREAFREE/photo-playground.git
-cd photo-playground
-mkdir -p ~/.codex/skills
-cp -R skills/small-news-daily ~/.codex/skills/
-cp -R skills/private-life-museum ~/.codex/skills/
-cp -R skills/pixel-life-save ~/.codex/skills/
-```
+也可以直接对能访问本地文件的 Codex 说：
 
-如果已经安装过同名 Skill，先备份自己的修改再更新。
+> 请从这个仓库安装 paper-scene-diorama Skill，保留它自己的文件夹和资源。如果已安装同名版本，先告诉我。
+
+或者无需安装，直接提供具体 `skills/名称/SKILL.md` 的本地路径，要求读取规则和引用资源后处理附图。Skill 提供创作规则，生成能力与用量由你自己的环境提供。豆包尚未实测兼容性；不要把仓库链接可访问等同于成功加载 Skill。
 
 附上一张照片，输入：
 

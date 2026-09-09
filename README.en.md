@@ -2,7 +2,7 @@
 
 **Give the smallest moments a front page.**
 
-Five free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, **Pirate Bounty Poster** for humorous wanted posters, and **Everyday Film Still** for cinematic scenes.
+Eight free, original photo Skills: **The Small News** for quietly funny newspaper posters, **Museum of Ordinary Things** for poetic exhibit posters, **Pixel Life Save** for cartoon pixel-art scenes, **Pirate Bounty Poster** for humorous wanted posters, **Everyday Film Still** for cinematic scenes, **Paper Scene Diorama**, **Photo Memory Book**, and **Everyday User Manual**.
 
 [中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
 
@@ -10,9 +10,9 @@ Five free, original photo Skills: **The Small News** for quietly funny newspaper
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
 
-## Three new Skills ready for review
+## Three new Skills in v0.4.0
 
-Paper dioramas, photo memory books and fictional everyday manuals each have two examples and an independent ZIP. These are local review candidates, not new releases. [Review all six results](examples/review-2026-09-09/README.md).
+Paper dioramas, photo memory books and fictional everyday manuals each have two examples and an independent ZIP. All eight independent ZIPs are available in [v0.4.0](https://github.com/TREAFREE/photo-playground/releases/tag/v0.4.0); the previous five packages are unchanged. [Review all six results](examples/review-2026-09-09/README.md).
 
 
 ## Everyday Film Still
@@ -62,15 +62,15 @@ Preserve the character of worn shoes, a familiar toy, or breakfast, and imagine 
 
 Your agent needs file reading, image inspection, and reference-image editing. This is a Skill, not a model or hosted service. Tested with the built-in image tool in Codex; other providers are not verified.
 
-Download `small-news-daily.zip`, `private-life-museum.zip`, or `pixel-life-save.zip` from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
+Download any of the eight independent Skill ZIPs from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
 
 ```bash
 git clone https://github.com/TREAFREE/photo-playground.git
 cd photo-playground
-mkdir -p ~/.codex/skills
-cp -R skills/small-news-daily ~/.codex/skills/
-cp -R skills/private-life-museum ~/.codex/skills/
-cp -R skills/pixel-life-save ~/.codex/skills/
+mkdir -p ~/.agents/skills
+cp -R skills/small-news-daily ~/.agents/skills/
+cp -R skills/private-life-museum ~/.agents/skills/
+cp -R skills/pixel-life-save ~/.agents/skills/
 ```
 
 Back up local changes before replacing an existing installation. Attach a photo and ask:

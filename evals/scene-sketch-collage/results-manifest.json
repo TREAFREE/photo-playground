@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/scene-sketch-collage/temple-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "ee7dd4c93bb586f39484b1b867633a704b599b99bb8cfc2bd7e5ee427bc36c87",
+    "prompt": "evals/scene-sketch-collage/temple-v1-prompt.txt",
+    "source": "examples/sources/temple.jpg",
+    "reference_images": [
+      "examples/sources/temple.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "scene-sketch-collage",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/scene-sketch-collage/bench-v1.png",
+    "width": 1087,
+    "height": 1447,
+    "sha256": "15a46a12fd9915f529ea8d9d6813f5a96872905a6619d39e6a110bc0326635f7",
+    "prompt": "evals/scene-sketch-collage/bench-v1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "scene-sketch-collage",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

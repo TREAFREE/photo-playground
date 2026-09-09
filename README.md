@@ -1,157 +1,84 @@
-# Photo Playground · 生活照片的十一种玩法
+# Photo Playground · 把日常做成想分享的作品
 
-**小事可以登上头版，旧物也值得认真收藏。**
+十三款免费照片 Skills。从一张随手拍出发，做一页小报、一幅版画、一张悬赏令，或者一段有电影感的日常。
 
-十一款原创照片 Skills，涵盖冷幽默、像素、纸雕、电影、照片书和编辑海报。每款独立安装、独立修改；实际验证范围见下方状态说明。
+[English](README.en.md) · [下载独立安装包](https://github.com/TREAFREE/photo-playground/releases/latest) · [豆包实测与用法](docs/doubao.md) · [全部验证记录](docs/skill-status.md)
 
-[English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
+**每款独立安装、独立修改。使用你自己的图片生成环境，无订阅、无额度销售。**
 
-## v0.5.0：新增三种风格，补测原有七款
-
-[查看十三张最终样例及原图对照](examples/review-v0.5.0/README.md) · [每款版本与验证范围](docs/skill-status.md)
-
-| 拼豆纪念画 | 单双色网点海报 | 摄影与微小诗意 |
+| 实景渐绘拼贴 | 建筑版画海报 | 像素生活存档 |
 |---|---|---|
-| ![拼豆猫](examples/results/bead-memory-tile/cat-q1.png) | ![单色狗狗](examples/results/spot-ink-editorial/dog-q1.png) | ![摄影手绘](examples/results/photo-poetry-diptych/bench-q2.png) |
+| ![实景渐绘拼贴](examples/results/scene-sketch-collage/temple-v1.png) | ![建筑版画海报](examples/results/architectural-relief-poster/temple-v1.png) | ![像素生活存档](examples/results/pixel-cat-v2.png) |
 
-全部为已发布、带样例的 Skill。**已发布不等于任意照片稳定出图；本地列表仅显示已安装的 Skill。** 本轮给原有七款分别补充复杂输入处理规则与新题材测试，保留两次修订前后的记录。日报规则与安装包未改动；未合并此前未采纳的像素改稿。
-
-## 新玩法：日常电影剧照
-
-用光线、构图和焦点，把日常变成电影中的一个瞬间。默认无字幕，也可以加一句你自己的台词。
-
-![深夜陪伴](examples/results/everyday-film-still/cat-v1.png)
-![清晨字幕版](examples/results/everyday-film-still/croissant-v1.png)
-
-[下载 everyday-film-still v0.1.1](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-film-still.zip) · [Skill](skills/everyday-film-still/SKILL.md) · [三种题材审片](evals/everyday-film-still/review.md)
-
-解压后将 `everyday-film-still` 放进 Skills 目录，附图输入：
-
-> 使用 $everyday-film-still，把这张照片做成电影剧照，保留主体特征，不加字幕。
-
-也可以指定：“加一句原创字幕：再坐一会儿吧。”电影场景属于创意重构，尚未测试人物身份保持或跨模型表现。
-
-## 大航海悬赏令
-
-把照片主角做成航海漫画里的悬赏人物，保留原来的神态，配上一本正经的荒诞称号。
-
-| 摸鱼监察官 | 沙发占领者 |
-|---|---|
-| ![猫悬赏令](examples/results/pirate-bounty-poster/cat-v2.png) | ![狗悬赏令](examples/results/pirate-bounty-poster/dog-v2.png) |
-
-[下载 pirate-bounty-poster v0.1.2](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pirate-bounty-poster.zip) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [审片](evals/pirate-bounty-poster/review.md)
-
-解压后将 `pirate-bounty-poster` 放进 Skills 目录，附图输入：
-
-> 使用 $pirate-bounty-poster，把这张照片做成海贼王式悬赏令，称号和悬赏理由有一点幽默。
-
-十一款 Skill 各自包含自己的规则与资源，可单独安装和修改。[独立维护说明](docs/skill-isolation.md)。v0.5.0 集中提供十一款独立安装包；旧版本仍可在历史 Releases 下载。
-
-## 像素生活存档
-
-把自己的日常，存成复古游戏里的一幕。宠物保留辨识特征，风景保留空间关系，再用清晰的像素色块重绘。
-
-| 今日任务：陪你摸鱼 | 在这里，暂停一下 |
-|---|---|
-| ![卡通像素猫](examples/results/pixel-cat-v2.png) | ![像素公园](examples/results/pixel-bench-v1.png) |
-
-[Skill 写法](skills/pixel-life-save/SKILL.md) · [像素视觉规范](skills/pixel-life-save/references/pixel-direction.md) · [实际审片](evals/pixel-review.md)
-
-## 没什么大事日报
-
-把照片里的小事，认真登上头版。
-
-| 新同事已到岗，主要负责盯人 | 公开招募发呆的人 |
-|---|---|
-| ![宠物小报](examples/results/cat-v2.png) | ![公园小报](examples/results/bench-v1.png) |
-
-## 再普通一点，也可以上报纸
-
-| 沙发使用权，暂不对外开放 | 早餐已准备好，起床另行通知 | 衣服都到齐了，还是没衣服穿 |
+| 大航海悬赏令 | 拼豆纪念画 | 微型纸雕 |
 |---|---|---|
-| ![狗狗小报](examples/results/dog-v2.png) | ![早餐小报](examples/results/croissant-v1.png) | ![穿搭小报](examples/results/wardrobe-v1.png) |
+| ![大航海悬赏令](examples/results/pirate-bounty-poster/cat-v2.png) | ![拼豆纪念画](examples/results/bead-memory-tile/cat-q1.png) | ![微型纸雕](examples/results/paper-scene-diorama/croissant-q1.png) |
 
-这五张小报是同一个 Skill 在不同照片上的实际生成结果。它先观察照片，写专属文案，再根据横竖构图排版。
+[新款原图对照](examples/review-v0.6.0/README.md) · [更多实拍题材与成品](examples/review-v0.5.0/README.md)
 
-## 私人生活博物馆
+## 选一个玩法
 
-把普通物件做成一张有展签的收藏海报。旧鞋保留折痕，玩偶保留自己的脸；台座、光线和展陈场景重新创作。
+只安装喜欢的一款即可。点击“规则”可直接阅读完整创作方法。
 
-| 折痕里的路 | 不说话的朋友 | 一口之前 |
+| 玩法 | 适合的照片与效果 | 规则 / 下载 |
 |---|---|---|
-| ![旧鞋展品](examples/results/museum-sneakers-v1.png) | ![小熊展品](examples/results/museum-teddy-v1.png) | ![可颂展品](examples/results/museum-croissant-v2.png) |
+| 没什么大事日报 | 宠物、生活小事 → 冷幽默中文头版 | [规则](skills/small-news-daily/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/small-news-daily.zip) |
+| 私人生活博物馆 | 旧鞋、玩偶、食物 → 带展签的收藏海报 | [规则](skills/private-life-museum/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/private-life-museum.zip) |
+| 像素生活存档 | 宠物、风景 → 卡通像素生活场景 | [规则](skills/pixel-life-save/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/pixel-life-save.zip) |
+| 大航海悬赏令 | 宠物、肖像 → 搞笑漫画悬赏人物 | [规则](skills/pirate-bounty-poster/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/pirate-bounty-poster.zip) |
+| 日常电影剧照 | 生活场景 → 灯光与构图驱动的电影画面 | [规则](skills/everyday-film-still/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/everyday-film-still.zip) |
+| 微型纸雕 | 宠物、风景、食物 → 有层次的纸艺小世界 | [规则](skills/paper-scene-diorama/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/paper-scene-diorama.zip) |
+| 照片记忆册 | 个人照片 → 摊开的摄影书效果图 | [规则](skills/photo-memory-book/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/photo-memory-book.zip) |
+| 日常说明书 | 日常物品 → 一本正经的趣味说明书 | [规则](skills/everyday-user-manual/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/everyday-user-manual.zip) |
+| 拼豆纪念画 | 照片 → 有塑料颗粒触感的拼豆纪念画 | [规则](skills/bead-memory-tile/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/bead-memory-tile.zip) |
+| 单双色网点海报 | 宠物、物件 → 大字与网点印刷海报 | [规则](skills/spot-ink-editorial/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/spot-ink-editorial.zip) |
+| 摄影与微小诗意 | 风景、生活 → 摄影与小幅手绘的留白双联 | [规则](skills/photo-poetry-diptych/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/photo-poetry-diptych.zip) |
+| 实景渐绘拼贴 | 建筑、旅行、日常 → 摄影逐渐延伸成纸上线描 | [规则](skills/scene-sketch-collage/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/scene-sketch-collage.zip) |
+| 建筑版画海报 | 屋檐、窗、楼梯 → 黑墨与刻线的建筑版画 | [规则](skills/architectural-relief-poster/SKILL.md) · [ZIP](https://github.com/TREAFREE/photo-playground/releases/download/v0.6.0/architectural-relief-poster.zip) |
 
-[Skill 写法](skills/private-life-museum/SKILL.md) · [展陈规范](skills/private-life-museum/references/exhibition.md) · [实际审片](evals/museum-review.md)
+## 在 Codex 中使用
 
-## 怎么用
+给能访问本地文件和图片编辑工具的 Codex 发送：
 
-需要能读取 Skill 文件、查看照片并调用**参考图片编辑工具**的 Agent 环境。仅有文字聊天能力不能生成这些图片。本项目在 Codex 内置图片工具中实测，未承诺其他模型或客户端的兼容性。
+```text
+请从 https://github.com/TREAFREE/photo-playground 安装 scene-sketch-collage。
+只安装这一款，保留它完整的独立目录；若已有同名 Skill，先保留我的本地修改。
+```
 
-在 [v0.5.0 下载页](https://github.com/TREAFREE/photo-playground/releases/tag/v0.5.0) 选择需要的独立 ZIP。解压后将同名文件夹放进个人 Skills 目录；Codex 当前文档推荐 `~/.agents/skills`。若已存在同名文件夹，先备份自己的修改再更新。十一款可以分别安装，不需要全部安装。
+安装后附上一张照片：
 
-| 玩法 | 规则版本 | 独立安装包 |
-|---|---|---|
-| 没什么大事日报 | 0.1.0 | [small-news-daily.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/small-news-daily.zip) |
-| 私人生活博物馆 | 0.2.1 | [private-life-museum.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/private-life-museum.zip) |
-| 像素生活存档 | 0.3.1 | [pixel-life-save.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pixel-life-save.zip) |
-| 大航海悬赏令 | 0.1.2 | [pirate-bounty-poster.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/pirate-bounty-poster.zip) |
-| 日常电影剧照 | 0.1.1 | [everyday-film-still.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-film-still.zip) |
-| 微型纸雕 | 0.1.1 | [paper-scene-diorama.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/paper-scene-diorama.zip) |
-| 照片记忆册 | 0.1.1 | [photo-memory-book.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/photo-memory-book.zip) |
-| 日常说明书 | 0.1.1 | [everyday-user-manual.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/everyday-user-manual.zip) |
-| 拼豆纪念画 | 0.1.0 | [bead-memory-tile.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/bead-memory-tile.zip) |
-| 单双色网点海报 | 0.1.0 | [spot-ink-editorial.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/spot-ink-editorial.zip) |
-| 摄影与微小诗意 | 0.1.0 | [photo-poetry-diptych.zip](https://github.com/TREAFREE/photo-playground/releases/download/v0.5.0/photo-poetry-diptych.zip) |
+```text
+使用 $scene-sketch-collage 处理这张照片，做成摄影渐绘拼贴，文字用英文。
+```
 
-也可以直接对能访问本地文件的 Codex 说：
+换成表中其他名称即可切换风格。也可以指定“纯图无字”、准确标题或一段真实经历。手动安装时，从 Releases 解压同名目录到当前 Codex 配置的 Skills 目录，重新打开会话确认可发现；无需把全部仓库作为一个 Skill 安装。
 
-> 请从这个仓库安装 paper-scene-diorama Skill，保留它自己的文件夹和资源。如果已安装同名版本，先告诉我。
+## 在豆包中使用
 
-或者无需安装，直接提供具体 `skills/名称/SKILL.md` 的本地路径，要求读取规则和引用资源后处理附图。Skill 提供创作规则，生成能力与用量由你自己的环境提供。豆包尚未实测兼容性；不要把仓库链接可访问等同于成功加载 Skill。
+**实测可通过“照片＋Skill 正文”生成建筑版画；没有验证成功从 GitHub 自动安装。**
 
-附上一张照片，输入：
+上传一张照片，粘贴对应“规则”页面的正文，前面加：
 
-> 使用 $small-news-daily，把这张照片做成《没什么大事日报》，有一点冷幽默，文字用中文。
+```text
+请严格按下面的创作规则直接生成一张成品图，不要只介绍风格。
+```
 
-或者：
+有 references 引用的 Skill 需要一并提供引用内容。不同模型的字体、留白和保真度会有差异；本轮豆包把黑色窄体标题改成了红色衬线标题。[完整步骤与实际测试范围](docs/doubao.md)。
 
-> 使用 $private-life-museum，把照片里的物件做成《私人生活博物馆》，保留它的使用痕迹，展签用中文。
+## 看样例，也看测试范围
 
-像素版：
+仓库全部十三款都有 Codex 图片工具生成的样例；新增两款目前只覆盖建筑和长椅等少量输入。漂亮样例不等于任意照片稳定成功，具体版本、题材数与缺陷见 [状态表](docs/skill-status.md)。
 
-> 使用 $pixel-life-save，把这张照片做成卡通像素风，保留主体特征，配一句中文生活存档文案。
+- 生成式编辑可能改动人脸、纹理、建筑细节；请检查重要辨识特征。
+- 文字可能需要一次修订；短标题通常更容易核对。
+- 拼豆是视觉效果，记忆册是图片效果，版画与网点海报是风格图；尚不提供逐格工艺图纸、翻页软件或印刷分色文件。
 
-也可以明确要求“纯图，不加文字”。
+## 免费开源，独立维护
 
-可以加一句你的真实经历，比如“今天周末，我的狗不肯出门”。也可以指定报纸名字、文案或语言。
+原创规则与代码使用 [MIT 许可](LICENSE)。生成能力和费用由你自己的平台提供，本仓库不提供 API Key 或托管推理。
 
-## 免费，使用自己的生成环境
+十三款拥有各自的文件、版本和 ZIP，更新一款不需要覆盖其他款。[独立维护说明](docs/skill-isolation.md) · [机器可读目录](skills-catalog.json) · [贡献方式](CONTRIBUTING.md)。
 
-Skill 原创文字与配置采用 MIT 许可，无功能锁、订阅或生成额度销售。图片生成消耗你所使用平台的额度或费用；仓库不提供模型、API Key 或托管推理服务。
+如果你愿意分享作品，欢迎 Star 或提交 Issue，并注明使用的 Skill、模型和遇到的问题。只公开你愿意公开的照片。未来赞助会明确标注，不插入用户成品；当前无赞赏收款入口或赞助商。
 
-如果作品让你开心，欢迎 Star，或在 [Discussions](https://github.com/TREAFREE/photo-playground/discussions) 分享你愿意公开的作品。
-
-## 效果边界
-
-- 生成式编辑会改变部分照片细节，不能保证人脸、宠物纹理或原图像素完全一致。
-- 小报测试了 5 张源照片；博物馆测试了可颂、旧鞋、小熊 3 个题材（复用 1 张源照片）。像素版测试了猫与公园 2 个题材（复用已有源图）。这不是任意照片成功率或用户分享率的统计结论。
-- 像素版属于生成式插画，会补画场景；未验证严格像素网格或固定调色板，不能直接承诺为游戏素材。
-- 中文偶尔可能出现错误；Skill 包含审片和一次针对性修订流程。
-- 报道属于虚构生活小报，不代表摄影师、照片主体或真实新闻机构的陈述。
-
-## 想研究或参与
-
-- [Skill 工作流](skills/small-news-daily/SKILL.md) / [视觉规范](skills/small-news-daily/references/art-direction.md)
-- [照片 Skills 调研](research/landscape.md)
-- [第一轮审片](evals/review.md) / [扩展测试](evals/round-2-review.md)
-- [原照片与作者](examples/sources/README.md) / [生成提示词](evals/)
-- [贡献方式](CONTRIBUTING.md)
-- [玩法路线图](ROADMAP.md)：像素版保留 v0.3.0，大航海悬赏令独立维护。
-
-`photo-playground` 是这组原创照片玩法的仓库。当前发布了《没什么大事日报》《私人生活博物馆》《像素生活存档》《大航海悬赏令》和《日常电影剧照》，逐个打磨后再增加新玩法。
-
-## 许可与支持
-
-原创 Skill、配置和代码见 [MIT LICENSE](LICENSE)。第三方源照片以及含其内容的示例媒体保留对应来源许可，不纳入 MIT；摄影师与链接见来源清单。本仓库不复制参考项目的 Skill 或视觉资产。
-
-项目可通过自愿赞助支持维护，当前没有赞助商或赞赏收款入口。未来商业赞助会明确标注，不进入用户成品、不要求更换模型。
+第三方照片及含其内容的样例不纳入 MIT：[照片作者与许可](examples/sources/README.md)。参考项目仅用于研究，不捆绑其规则与资产：[本轮研究](research/reference-styles-2026-09-09.md)。

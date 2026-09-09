@@ -73,5 +73,15 @@
     "license": "https://unsplash.com/license",
     "retrieved": "2026-09-08",
     "sha256": "18550a9ff22008b7d7e195bc9e2c7cef641348c0bb81b0be499c812631aaf8ae"
+  },
+  {
+    "name": "temple",
+    "file": "temple.jpg",
+    "author": "Honney Artkongharn",
+    "page": "https://unsplash.com/photos/SSbSue-_6A8",
+    "image_url": "https://images.unsplash.com/photo-1758647533772-014854b440d1?w=1600&q=90&fit=max",
+    "license": "https://unsplash.com/license",
+    "retrieved": "2026-09-09",
+    "sha256": "5b919bd66b7241675327bfe731a7489cf2c10dee752bce1e9390cdcf308bf238"
   }
 ]

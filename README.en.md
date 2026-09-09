@@ -1,95 +1,31 @@
 # Photo Playground
 
-**Give the smallest moments a front page.**
+**Turn everyday photos into something worth sharing.**
 
-Eleven free, original photo Skills, independently packaged and versioned. Newspaper, museum, pixel art, bounty posters, film stills, paper dioramas, memory books, manuals, fuse-bead keepsakes, spot-ink posters and photo/illustration diptychs.
+Thirteen free, independently packaged photo Skills. Use your own image-generation environment; no subscriptions or inference credits sold here.
 
-[中文](README.md) · [Download](https://github.com/TREAFREE/photo-playground/releases/latest) · [Skill](skills/small-news-daily/SKILL.md)
+[中文 / full visual gallery](README.md) · [Download individual ZIPs](https://github.com/TREAFREE/photo-playground/releases/latest) · [Validation scope](docs/skill-status.md)
 
-| A new colleague, mainly here to supervise | Recruiting someone to sit and daydream |
+| Photo-sketch collage | Architectural relief print |
 |---|---|
-| ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
+| ![Collage](examples/results/scene-sketch-collage/temple-v1.png) | ![Relief](examples/results/architectural-relief-poster/temple-v1.png) |
 
-## v0.5.0: three new styles and seven additional test cases
-
-[Download all eleven independent ZIPs](https://github.com/TREAFREE/photo-playground/releases/tag/v0.5.0) · [Review thirteen final results](examples/review-v0.5.0/README.md) · [Versions and validation scope](docs/skill-status.md)
-
-New: `bead-memory-tile`, `spot-ink-editorial`, `photo-poetry-diptych`. Seven earlier Skills received source-handling guidance and one additional photo case each. Two targeted revisions and their rejected first attempts are recorded. The newspaper bundle is unchanged.
-
-Published means available to download, not guaranteed success for arbitrary inputs. Tests use built-in image_gen in one session, not blind agent tests. Other clients/models remain unverified. Bead output is not a countable craft chart; spot-ink output is not a prepress separation; the diptych bench sample still has an approximate 57/43 split.
-
-## Everyday Film Still
-
-Photo-derived cinematic lighting and framing, with optional original subtitles. Tested on a pet, park scenery and breakfast; scene details can change. Human identity preservation is untested.
-
-![Late-night companion](examples/results/everyday-film-still/cat-v1.png)
-![Breakfast with subtitle](examples/results/everyday-film-still/croissant-v1.png)
-
-[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/everyday-film-still-v0.1.0) · [Skill](skills/everyday-film-still/SKILL.md) · [Review](evals/everyday-film-still/review.md)
-
-Extract `everyday-film-still` into your Skills directory, attach a photo and ask: “Use $everyday-film-still to make a cinematic still from this photo, without subtitles.”
-
-## Pirate Bounty Poster
-
-| The procrastination inspector | The sofa occupier |
-|---|---|
-| ![Cat](examples/results/pirate-bounty-poster/cat-v2.png) | ![Dog](examples/results/pirate-bounty-poster/dog-v2.png) |
-
-[Independent download](https://github.com/TREAFREE/photo-playground/releases/tag/pirate-bounty-poster-v0.1.1) · [Skill](skills/pirate-bounty-poster/SKILL.md) · [Review](evals/pirate-bounty-poster/review.md)
-
-Extract `pirate-bounty-poster` into your Skills directory and ask: “Use $pirate-bounty-poster to create a humorous pirate-anime wanted poster from this photo.” Each Skill is self-contained and packaged separately; the original three ZIPs remain unchanged.
-
-## Pixel Life Save
-
-A recognizable moment from your photo, reimagined as a colorful retro game illustration. Short Chinese save captions are optional.
-
-| Keeping you company | A place to pause |
-|---|---|
-| ![Pixel cat](examples/results/pixel-cat-v2.png) | ![Pixel park](examples/results/pixel-bench-v1.png) |
-
-[Skill](skills/pixel-life-save/SKILL.md) · [Visual review](evals/pixel-review.md) · [Roadmap](ROADMAP.md)
-
-These are generated pixel-style illustrations, not verified integer-grid sprites or fixed-palette game assets. Background details can change.
-
-## Museum of Ordinary Things
-
-Preserve the character of worn shoes, a familiar toy, or breakfast, and imagine a small exhibition around it. The setting is generated; this is not a pixel-perfect cutout.
-
-| Roads in the creases | A quiet friend | Before the first bite |
-|---|---|---|
-| ![Shoes](examples/results/museum-sneakers-v1.png) | ![Teddy](examples/results/museum-teddy-v1.png) | ![Croissant](examples/results/museum-croissant-v2.png) |
-
-[Skill](skills/private-life-museum/SKILL.md) · [Visual review](evals/museum-review.md)
+New in v0.6.0: `scene-sketch-collage` and `architectural-relief-poster`. Existing eleven Skills are unchanged. [Before/after gallery](examples/review-v0.6.0/README.md).
 
 ## Use
 
-Your agent needs file reading, image inspection, and reference-image editing. This is a Skill, not a model or hosted service. Tested with the built-in image tool in Codex; other providers are not verified.
+Ask Codex to install one Skill from this repository, then attach a photo and invoke it, for example:
 
-Download any of the eleven independent Skill ZIPs from [Releases](https://github.com/TREAFREE/photo-playground/releases/latest), extract it, and place the folder in your agent's Skills directory. For a typical macOS/Linux Codex installation:
-
-```bash
-git clone https://github.com/TREAFREE/photo-playground.git
-cd photo-playground
-mkdir -p ~/.agents/skills
-cp -R skills/small-news-daily ~/.agents/skills/
-cp -R skills/private-life-museum ~/.agents/skills/
-cp -R skills/pixel-life-save ~/.agents/skills/
+```text
+Use $scene-sketch-collage to transform this photo. Keep the subject recognizable; use a short English caption.
 ```
 
-Back up local changes before replacing an existing installation. Attach a photo and ask:
+An image-capable agent must read the complete Skill and any linked references. Each ZIP is self-contained; back up local edits before updating that Skill.
 
-> Use $small-news-daily to turn this photo into a gently funny Chinese newspaper poster.
+Doubao was tested with a photo and pasted architectural-relief rules: it generated an image but changed the requested typography. GitHub retrieval and persistent installation were not successful in the tested chat. Other Skills and task/Turbo modes are not verified. [Actual test and instructions](docs/doubao.md).
 
-> Use $private-life-museum to turn this object into a poetic museum poster with a short Chinese label.
+## Scope and license
 
-> Use $pixel-life-save to turn this photo into a cartoon pixel-art scene with a short Chinese life-save caption.
+Sample-tested does not mean reliable for every input. Generated edits can change identity and details. Bead art is not a craft chart; book images are not a flipbook application; print-style images are not prepress separations.
 
-You may supply your own headline, context, newspaper name, or language. The tested examples use simplified Chinese.
-
-## Free and open
-
-Original Skill text, configuration, and code are MIT-licensed. No subscription, credit sale, bundled API key, or public inference proxy. Generation uses your existing environment and its usage limits or fees.
-
-Generated edits may change photo details. We do not promise pixel-perfect preservation or universal success. The newspaper was tried on five source photos; the museum on three subjects (one shared source), and the pixel Skill on two previously recorded photos, with prompts and visual review records in [evals](evals/). Third-party photos and derived sample media retain their source licenses and are excluded from MIT; see [credits](examples/sources/README.md).
-
-[Contributions](CONTRIBUTING.md) are welcome. If it makes you smile, a Star or an example you have permission to share is appreciated.
+Original rules and code are [MIT licensed](LICENSE). Third-party photos and example media containing them retain their source terms; see [credits](examples/sources/README.md). No third-party Skills or reference artworks are bundled. Sponsorship, if introduced, will be disclosed and will not be inserted into user outputs.

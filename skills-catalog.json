@@ -3,7 +3,7 @@
     "name": "small-news-daily",
     "title": "没什么大事日报",
     "version": "0.1.0",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 5,
     "sources": [
@@ -22,7 +22,7 @@
     "name": "private-life-museum",
     "title": "私人生活博物馆",
     "version": "0.2.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 4,
     "sources": [
@@ -40,7 +40,7 @@
     "name": "pixel-life-save",
     "title": "像素生活存档",
     "version": "0.3.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 3,
     "sources": [
@@ -57,7 +57,7 @@
     "name": "pirate-bounty-poster",
     "title": "大航海悬赏令",
     "version": "0.1.2",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 3,
     "sources": [
@@ -74,7 +74,7 @@
     "name": "everyday-film-still",
     "title": "日常电影剧照",
     "version": "0.1.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 4,
     "sources": [
@@ -92,7 +92,7 @@
     "name": "paper-scene-diorama",
     "title": "微型纸雕",
     "version": "0.1.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 3,
     "sources": [
@@ -109,7 +109,7 @@
     "name": "photo-memory-book",
     "title": "照片记忆册",
     "version": "0.1.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 3,
     "sources": [
@@ -126,7 +126,7 @@
     "name": "everyday-user-manual",
     "title": "日常说明书",
     "version": "0.1.1",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 3,
     "sources": [
@@ -143,7 +143,7 @@
     "name": "bead-memory-tile",
     "title": "拼豆纪念画",
     "version": "0.1.0",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 2,
     "sources": [
@@ -159,7 +159,7 @@
     "name": "spot-ink-editorial",
     "title": "单双色网点海报",
     "version": "0.1.0",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 2,
     "sources": [
@@ -175,7 +175,7 @@
     "name": "photo-poetry-diptych",
     "title": "摄影与微小诗意",
     "version": "0.1.0",
-    "release": "v0.5.0",
+    "release": "v0.6.0",
     "validation": "sample-tested",
     "source_count": 2,
     "sources": [
@@ -186,5 +186,36 @@
     "entrypoint": "skills/photo-poetry-diptych/SKILL.md",
     "archive": "dist/photo-poetry-diptych.zip",
     "review": "evals/photo-poetry-diptych/quality-review.md"
+  },
+  {
+    "name": "scene-sketch-collage",
+    "title": "实景渐绘拼贴",
+    "version": "0.1.0",
+    "release": "v0.6.0",
+    "validation": "sample-tested",
+    "source_count": 2,
+    "sources": [
+      "examples/sources/temple.jpg",
+      "examples/sources/bench.jpg"
+    ],
+    "results_count": 2,
+    "entrypoint": "skills/scene-sketch-collage/SKILL.md",
+    "archive": "dist/scene-sketch-collage.zip",
+    "review": "evals/scene-sketch-collage/quality-review.md"
+  },
+  {
+    "name": "architectural-relief-poster",
+    "title": "建筑版画海报",
+    "version": "0.1.0",
+    "release": "v0.6.0",
+    "validation": "sample-tested",
+    "source_count": 1,
+    "sources": [
+      "examples/sources/temple.jpg"
+    ],
+    "results_count": 1,
+    "entrypoint": "skills/architectural-relief-poster/SKILL.md",
+    "archive": "dist/architectural-relief-poster.zip",
+    "review": "evals/architectural-relief-poster/quality-review.md"
   }
 ]

@@ -20,3 +20,5 @@
 | teddy.jpg | MChe Lee | [来源](https://unsplash.com/photos/hnwsRpzTbaY) | [Unsplash License](https://unsplash.com/license) |
 
 博物馆的可颂示例复用上表的 croissant.jpg。展陈场景与文案为创意重构。
+
+新增建筑样片：[Honney Artkongharn / temple](https://unsplash.com/photos/SSbSue-_6A8)，[Unsplash License](https://unsplash.com/license)，2026-09-09 下载；用于渐绘与建筑版画测试。

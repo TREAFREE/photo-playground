@@ -1,0 +1,21 @@
+[
+  {
+    "file": "examples/results/architectural-relief-poster/temple-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "09f3c9948c87d14b0d52528a8865a2cbcc4cf668894421c89902ed4da6b9aaa4",
+    "prompt": "evals/architectural-relief-poster/temple-v1-prompt.txt",
+    "source": "examples/sources/temple.jpg",
+    "reference_images": [
+      "examples/sources/temple.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "architectural-relief-poster",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

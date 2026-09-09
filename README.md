@@ -6,6 +6,11 @@
 
 [English](README.en.md) · [下载 Skill](https://github.com/TREAFREE/photo-playground/releases/latest) · [查看写法](skills/small-news-daily/SKILL.md)
 
+## 本地待审：三款新玩法
+
+新增微型纸雕、照片记忆册、日常说明书，各两个样例和独立 ZIP，等待统一审美检查。[查看六张成品与原图对照](examples/review-2026-09-09/README.md)。
+
+
 ## 新玩法：日常电影剧照
 
 用光线、构图和焦点，把日常变成电影中的一个瞬间。默认无字幕，也可以加一句你自己的台词。

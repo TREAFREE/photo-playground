@@ -10,6 +10,11 @@ Five free, original photo Skills: **The Small News** for quietly funny newspaper
 |---|---|
 | ![Cat newspaper](examples/results/cat-v2.png) | ![Bench newspaper](examples/results/bench-v1.png) |
 
+## Three new Skills ready for review
+
+Paper dioramas, photo memory books and fictional everyday manuals each have two examples and an independent ZIP. These are local review candidates, not new releases. [Review all six results](examples/review-2026-09-09/README.md).
+
+
 ## Everyday Film Still
 
 Photo-derived cinematic lighting and framing, with optional original subtitles. Tested on a pet, park scenery and breakfast; scene details can change. Human identity preservation is untested.

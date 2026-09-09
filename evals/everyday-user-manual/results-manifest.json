@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/everyday-user-manual/cat-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "ac771429b5f5d4a7597c9c7b2c03fcff2dae6262985337535adce5e4e3f6e165",
+    "prompt": "evals/everyday-user-manual/cat-v1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "everyday-user-manual",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/everyday-user-manual/bench-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "cfb6c8771dedb0f21e2484451ab7716dfa63c9e2f11c7a91ce279091cad21d27",
+    "prompt": "evals/everyday-user-manual/bench-v1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "everyday-user-manual",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

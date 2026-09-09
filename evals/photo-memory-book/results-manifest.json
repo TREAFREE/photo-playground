@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/photo-memory-book/cat-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "c0439a3affa15189d4fc9cd0fcb4c5f6aa89f6601c4b1efdd25637b60c0c19a0",
+    "prompt": "evals/photo-memory-book/cat-v1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "photo-memory-book",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/photo-memory-book/croissant-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "12c4343980df01b2e9e9428d5b68a1be6d56800a45cc34b26d8ab3a1299582b3",
+    "prompt": "evals/photo-memory-book/croissant-v1-prompt.txt",
+    "source": "examples/sources/croissant.jpg",
+    "reference_images": [
+      "examples/sources/croissant.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "photo-memory-book",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file": "examples/results/paper-scene-diorama/cat-v1.png",
+    "width": 1086,
+    "height": 1448,
+    "sha256": "617eba60e56f4e0e16b9e28c9b70127c2e80668d15da0d76472adf03b5f042bc",
+    "prompt": "evals/paper-scene-diorama/cat-v1-prompt.txt",
+    "source": "examples/sources/cat.jpg",
+    "reference_images": [
+      "examples/sources/cat.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "paper-scene-diorama",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  },
+  {
+    "file": "examples/results/paper-scene-diorama/bench-v1.png",
+    "width": 1087,
+    "height": 1447,
+    "sha256": "83b6033cfbad74f5c167ee3fc0c9d78972fd9fe1d13bce14b302216e5bd39844",
+    "prompt": "evals/paper-scene-diorama/bench-v1-prompt.txt",
+    "source": "examples/sources/bench.jpg",
+    "reference_images": [
+      "examples/sources/bench.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "selected": true,
+    "skill": "paper-scene-diorama",
+    "expected_aspect": [
+      3,
+      4
+    ],
+    "aspect_tolerance_px": 2
+  }
+]

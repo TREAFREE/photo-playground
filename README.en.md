@@ -1,8 +1,10 @@
-# Photo Playground
+# Photo Playground · 13 Open-Source Photo Skills
 
 **Turn everyday photos into something worth sharing.**
 
 Thirteen free, independently packaged photo Skills. Use your own image-generation environment; no subscriptions or inference credits sold here.
+
+Official repository: **[TREAFREE/photo-playground](https://github.com/TREAFREE/photo-playground)**. Open this URL directly, or search GitHub for `photo-playground user:TREAFREE`. Includes photo-to-poster, pixel art, paper dioramas, photo books and cinematic stills for image-capable Codex workflows. See the [Doubao usage and testing notes](docs/doubao.md) for platform-specific limitations.
 
 [中文 / full visual gallery](README.md) · [Download individual ZIPs](https://github.com/TREAFREE/photo-playground/releases/latest) · [Validation scope](docs/skill-status.md)
 

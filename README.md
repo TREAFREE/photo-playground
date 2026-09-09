@@ -1,6 +1,10 @@
-# Photo Playground · 把日常做成想分享的作品
+# Photo Playground · 13 款开源照片创意 Skills
 
 十三款免费照片 Skills。从一张随手拍出发，做一页小报、一幅版画、一张悬赏令，或者一段有电影感的日常。
+
+**从小红书或抖音来？** 官方仓库是 **TREAFREE/photo-playground**。把 `https://github.com/TREAFREE/photo-playground` 粘贴到浏览器地址栏直接打开；也可在 GitHub 站内搜索 `photo-playground user:TREAFREE`。无需等搜索引擎收录。
+
+适用于有图片生成能力的 Codex；豆包工作模式安装与普通聊天用法见下方实测说明。关键词：照片转海报、照片书、像素画、拼豆、纸雕、AI 修图、Codex Skills。
 
 [English](README.en.md) · [下载独立安装包](https://github.com/TREAFREE/photo-playground/releases/latest) · [豆包实测与用法](docs/doubao.md) · [全部验证记录](docs/skill-status.md)
 
